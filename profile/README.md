@@ -177,7 +177,7 @@ class Collaboration:
         ]
     
     def get_in_touch(self):
-        return "security@cpsec-ucy.org"
+        return "security@cs.ucy.ac.cy"
 ```
 
 [![Website](https://img.shields.io/badge/Website-000000?style=for-the-badge&logo=About.me&logoColor=white)](https://www.cs.ucy.ac.cy/)
