@@ -97,9 +97,9 @@ Automated threat hunting
 
 <div align="center">
 
-![GitHub Org's Stats](https://github-readme-stats.vercel.app/api?username=CPSEC-UCY&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=00ff41&icon_color=00ff41&text_color=c9d1d9)
+![GitHub Org's Stats](https://github-readme-stats.vercel.app/api?username=slayingripper&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=00ff41&icon_color=00ff41&text_color=c9d1d9)
 
-[![GitHub Streak](https://streak-stats.demolab.com?user=CPSEC-UCY&theme=dark&hide_border=true&background=0D1117&ring=00FF41&fire=00FF41&currStreakLabel=00FF41&sideNums=00FF41&currStreakNum=00FF41&dates=C9D1D9&sideLabels=C9D1D9)](https://git.io/streak-stats)
+[![GitHub Streak](https://streak-stats.demolab.com?user=slayingripper&theme=dark&hide_border=true&background=0D1117&ring=00FF41&fire=00FF41&currStreakLabel=00FF41&sideNums=00FF41&currStreakNum=00FF41&dates=C9D1D9&sideLabels=C9D1D9)](https://git.io/streak-stats)
 
 </div>
 
