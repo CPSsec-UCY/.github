@@ -222,11 +222,11 @@ class Collaboration:
 ```ascii
 ╔════════════════════════════════════════════════════════════════╗
 ║                                                                ║
-║  "The only truly secure system is one that is powered off,    ║
-║   cast in a block of concrete and sealed in a lead-lined      ║
-║   room with armed guards." - Gene Spafford                    ║
+║  "The only truly secure system is one that is powered off,     ║
+║   cast in a block of concrete and sealed in a lead-lined       ║
+║   room with armed guards." - Gene Spafford                     ║
 ║                                                                ║
-║  We're working on the next best thing. 🛡️                      ║
+║  We're working on the next best thing.🛡️                       ║
 ║                                                                ║
 ╚════════════════════════════════════════════════════════════════╝
 ```
