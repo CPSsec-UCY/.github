@@ -76,7 +76,7 @@ detection, and adversarial machine learning.
 <b><a href="https://github.com/Slayingripper">@Slayingripper</a></b>
 <br/>
 <img src="https://img.shields.io/badge/COMMITS%2FDAY-0.17-7ee787?style=flat-square&amp;labelColor=0d1117" alt="commits per day" />
-<img src="https://img.shields.io/badge/TOTAL-62-7ee787?style=flat-square&amp;labelColor=0d1117" alt="total commits" />
+<img src="https://img.shields.io/badge/TOTAL-63-7ee787?style=flat-square&amp;labelColor=0d1117" alt="total commits" />
 <br/>
 <img src="https://img.shields.io/badge/STREAK-5d-7ee787?style=flat-square&amp;labelColor=0d1117" alt="current streak" />
 <img src="https://img.shields.io/badge/BEST-6d-7ee787?style=flat-square&amp;labelColor=0d1117" alt="longest streak" />
@@ -183,7 +183,7 @@ Operators with no commits in the window are hidden.</sub>
 <!-- ACTIVITY:START -->
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/CPSsec-UCY/.github/main/profile/assets/combined-activity.svg?v=82b820ea0622" width="100%" alt="Combined contribution activity across CPSEC-UCY operators" />
+<img src="https://raw.githubusercontent.com/CPSsec-UCY/.github/main/profile/assets/combined-activity.svg?v=5c02fb221e3b" width="100%" alt="Combined contribution activity across CPSEC-UCY operators" />
 
 <sub>Combined public contribution activity · 7 operators · trailing 365 days</sub>
 </div>
