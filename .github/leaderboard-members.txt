@@ -1,0 +1,14 @@
+# CPSEC-UCY members included in the contribution leaderboard.
+# One GitHub login per line. Lines starting with # are ignored.
+atsana01
+drousias
+HafizMuhammadSobanKhan
+Ichrak-Mosref
+kchris36
+kos00pas
+LazosLzr
+Michael-Photiades
+Slayingripper
+TheocharidesDimitris
+theofanis678
+tsekoss
