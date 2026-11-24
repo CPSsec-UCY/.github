@@ -11,8 +11,7 @@
 
 <br/><br/>
 
-<a href="https://www.cs.ucy.ac.cy/"><img src="https://img.shields.io/badge/WEBSITE-VISIT-0d1117?style=for-the-badge&amp;logo=googlechrome&amp;logoColor=00FF41" alt="Website" /></a>
-<a href="mailto:security@cs.ucy.ac.cy"><img src="https://img.shields.io/badge/EMAIL-CONTACT-0d1117?style=for-the-badge&amp;logo=gmail&amp;logoColor=00FF41" alt="Email" /></a>
+<a href="https://cpssec-ucy.github.io/CPSsecWebsite/"><img src="https://img.shields.io/badge/WEBSITE-VISIT-0d1117?style=for-the-badge&amp;logo=googlechrome&amp;logoColor=00FF41" alt="Website" /></a>
 <a href="https://github.com/CPSsec-UCY"><img src="https://img.shields.io/badge/GITHUB-CPSsec--UCY-0d1117?style=for-the-badge&amp;logo=github&amp;logoColor=00FF41" alt="GitHub" /></a>
 
 </div>
@@ -35,7 +34,7 @@ detection, and adversarial machine learning.
 <!-- STATS:START -->
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/CPSsec-UCY/.github/main/profile/assets/stats.svg?v=8e9f6da2142f" width="100%" alt="CPSEC-UCY organization statistics" />
+<img src="https://raw.githubusercontent.com/CPSsec-UCY/.github/main/profile/assets/stats.svg?v=b2dec58117ac" width="100%" alt="CPSEC-UCY organization statistics" />
 
 </div>
 <!-- STATS:END -->
@@ -183,7 +182,7 @@ Operators with no commits in the window are hidden.</sub>
 <!-- ACTIVITY:START -->
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/CPSsec-UCY/.github/main/profile/assets/combined-activity.svg?v=1addcc817e48" width="100%" alt="Combined contribution activity across CPSEC-UCY operators" />
+<img src="https://raw.githubusercontent.com/CPSsec-UCY/.github/main/profile/assets/combined-activity.svg?v=4b26b3dd363b" width="100%" alt="Combined contribution activity across CPSEC-UCY operators" />
 
 <sub>Combined public contribution activity · 7 operators · trailing 365 days</sub>
 </div>
@@ -215,58 +214,7 @@ Operators with no commits in the window are hidden.</sub>
 
 ---
 
-## // 04 · featured repositories
-
-<table>
-<tr>
-<td align="center" width="50%">
-<img src="https://api.iconify.design/mdi/shield-lock.svg?color=%2300ff41&amp;height=52" height="52" alt="" />
-<h3>Remote-IoT-Attestation</h3>
-<sub>TEE, remote attestation, and post-quantum cryptography for IoT</sub>
-<br/><br/>
-<img src="https://img.shields.io/badge/PYTHON-3776AB?style=flat-square&amp;logo=python&amp;logoColor=white" alt="Python" />
-<a href="https://github.com/CPSsec-UCY/Remote-IoT-Attestation"><img src="https://img.shields.io/badge/OPEN_REPO-7ee787?style=flat-square&amp;labelColor=0d1117" alt="Open repository" /></a>
-</td>
-<td align="center" width="50%">
-<img src="https://api.iconify.design/mdi/server-security.svg?color=%2300ff41&amp;height=52" height="52" alt="" />
-<h3>KerberosCyberRange</h3>
-<sub>Scalable cyber range on QEMU/KVM with a modern web interface</sub>
-<br/><br/>
-<img src="https://img.shields.io/badge/PYTHON-3776AB?style=flat-square&amp;logo=python&amp;logoColor=white" alt="Python" />
-<a href="https://github.com/CPSsec-UCY/KerberosCyberRange"><img src="https://img.shields.io/badge/OPEN_REPO-7ee787?style=flat-square&amp;labelColor=0d1117" alt="Open repository" /></a>
-</td>
-</tr>
-<tr>
-<td align="center" width="50%">
-<img src="https://api.iconify.design/mdi/sword-cross.svg?color=%2300ff41&amp;height=52" height="52" alt="" />
-<h3>Blue-Red-Training-scenarios</h3>
-<sub>Blue/red team training dashboard and scenario toolkit</sub>
-<br/><br/>
-<img src="https://img.shields.io/badge/PYTHON-3776AB?style=flat-square&amp;logo=python&amp;logoColor=white" alt="Python" />
-<a href="https://github.com/CPSsec-UCY/Blue-Red-Training-scenarios"><img src="https://img.shields.io/badge/OPEN_REPO-7ee787?style=flat-square&amp;labelColor=0d1117" alt="Open repository" /></a>
-</td>
-<td align="center" width="50%">
-<img src="https://api.iconify.design/mdi/radar.svg?color=%2300ff41&amp;height=52" height="52" alt="" />
-<h3>FOCAL-PDP</h3>
-<sub>Policy decision point for the FOCAL project (WP2)</sub>
-<br/><br/>
-<img src="https://img.shields.io/badge/SHELL-4EAA25?style=flat-square&amp;logo=gnubash&amp;logoColor=white" alt="Shell" />
-<a href="https://github.com/CPSsec-UCY/FOCAL-PDP"><img src="https://img.shields.io/badge/OPEN_REPO-7ee787?style=flat-square&amp;labelColor=0d1117" alt="Open repository" /></a>
-</td>
-</tr>
-</table>
-
-<br/>
-
-<div align="center">
-
-<a href="https://github.com/CPSsec-UCY?tab=repositories"><img src="https://img.shields.io/badge/VIEW_ALL_REPOSITORIES-7ee787?style=for-the-badge&amp;labelColor=0d1117" alt="View all repositories" /></a>
-
-</div>
-
----
-
-## // 05 · collaborate
+## // 04 · collaborate
 
 <div align="center">
 
@@ -275,7 +223,7 @@ projects, and joint publications.
 
 <br/><br/>
 
-<a href="https://www.cs.ucy.ac.cy/"><img src="https://img.shields.io/badge/START_A_CONVERSATION-WEBSITE-7ee787?style=for-the-badge&amp;labelColor=0d1117" alt="Start a conversation" /></a>
+<a href="https://cpssec-ucy.github.io/CPSsecWebsite/"><img src="https://img.shields.io/badge/START_A_CONVERSATION-WEBSITE-7ee787?style=for-the-badge&amp;labelColor=0d1117" alt="Start a conversation" /></a>
 
 </div>
 
