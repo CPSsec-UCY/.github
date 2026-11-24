@@ -20,10 +20,13 @@ MEMBERS_FILE = Path(
 ACTIVITY_SVG = Path(
     os.environ.get("ACTIVITY_SVG", ROOT / "profile" / "assets" / "combined-activity.svg")
 )
+STATS_SVG = Path(os.environ.get("STATS_SVG", ROOT / "profile" / "assets" / "stats.svg"))
 START = "<!-- LEADERBOARD:START -->"
 END = "<!-- LEADERBOARD:END -->"
 ACTIVITY_START = "<!-- ACTIVITY:START -->"
 ACTIVITY_END = "<!-- ACTIVITY:END -->"
+STATS_START = "<!-- STATS:START -->"
+STATS_END = "<!-- STATS:END -->"
 WINDOW_DAYS = 365
 API = "https://api.github.com"
 GRAPHQL = f"{API}/graphql"
@@ -134,6 +137,97 @@ def fetch_metrics(login):
         "longest_streak": longest,
         "days": [(day["date"], day["contributionCount"]) for day in days],
     }
+
+
+def count_commits_since(repo, since):
+    total = 0
+    page = 1
+    while True:
+        commits = http_json(
+            f"{API}/repos/{repo}/commits?since={since}&per_page=100&page={page}"
+        )
+        if not isinstance(commits, list):
+            break
+        total += len(commits)
+        if len(commits) < 100:
+            break
+        page += 1
+    return total
+
+
+def fetch_stats(operator_count):
+    repo = os.environ.get("GITHUB_REPOSITORY", "CPSsec-UCY/.github")
+    org = os.environ.get("ORG") or repo.split("/")[0]
+    org_data = http_json(f"{API}/orgs/{org}")
+    since = (datetime.now(timezone.utc) - timedelta(days=WINDOW_DAYS)).strftime(
+        "%Y-%m-%dT%H:%M:%SZ"
+    )
+    commit_year = count_commits_since(repo, since)
+    commits = http_json(f"{API}/repos/{repo}/commits?per_page=1")
+    last_sync = "UNKNOWN"
+    if commits:
+        committed = commits[0]["commit"]["committer"]["date"]
+        last_sync = (
+            datetime.fromisoformat(committed.replace("Z", "+00:00"))
+            .strftime("%b %d")
+            .upper()
+        )
+    return [
+        ("OPERATORS", str(operator_count)),
+        ("COMMITS / YEAR", str(commit_year)),
+        ("FOLLOWERS", str(org_data.get("followers") or 0)),
+        ("LAST SYNC", last_sync),
+    ]
+
+
+def render_stats(stats, raw_url):
+    width = 880
+    height = 78
+    font = "JetBrains Mono, Fira Code, monospace"
+    usable = width - 64
+    step = usable / len(stats)
+    parts = [
+        f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}" role="img" aria-label="CPSEC-UCY organization statistics">',
+        "<defs>",
+        '<linearGradient id="statsbg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0d1117"/><stop offset="1" stop-color="#08110c"/></linearGradient>',
+        "</defs>",
+        f'<rect x="0.5" y="0.5" width="{width - 1}" height="{height - 1}" rx="12" fill="url(#statsbg)" stroke="#00ff41" stroke-opacity="0.35"/>',
+    ]
+    for index, (label, value) in enumerate(stats):
+        x = 32 + index * step
+        if index:
+            divider = x - 24
+            parts.append(
+                f'<line x1="{divider:.1f}" y1="16" x2="{divider:.1f}" y2="62" stroke="#30363d" stroke-width="1"/>'
+            )
+        parts.append(
+            f'<text x="{x:.1f}" y="28" fill="#8b949e" font-family="{font}" font-size="10" letter-spacing="2">{label}</text>'
+        )
+        parts.append(
+            f'<text x="{x:.1f}" y="56" fill="#7ee787" font-family="{font}" font-size="22" font-weight="700">{value}</text>'
+        )
+    parts.append(
+        f'<circle cx="{width - 24}" cy="20" r="3" fill="#7ee787"><animate attributeName="opacity" values="0.25;1;0.25" dur="2.4s" repeatCount="indefinite"/></circle>'
+    )
+    parts.append("</svg>")
+
+    svg = "\n".join(parts)
+    digest = hashlib.sha256(svg.encode("utf-8")).hexdigest()[:12]
+    STATS_SVG.parent.mkdir(parents=True, exist_ok=True)
+    if not STATS_SVG.exists() or STATS_SVG.read_text(encoding="utf-8") != svg:
+        STATS_SVG.write_text(svg, encoding="utf-8")
+
+    return "\n".join(
+        [
+            STATS_START,
+            '<div align="center">',
+            "",
+            f'<img src="{raw_url}?v={digest}" width="100%" alt="CPSEC-UCY organization statistics" />',
+            "",
+            "</div>",
+            STATS_END,
+        ]
+    )
 
 
 def status_for(rank, item):
@@ -383,16 +477,20 @@ def main():
     activity = render_activity(metrics, raw_url)
     if not activity:
         raise RuntimeError("No activity data could be aggregated.")
+    stats_asset_path = STATS_SVG.relative_to(ROOT).as_posix()
+    stats_raw_url = f"https://raw.githubusercontent.com/{repo}/{branch}/{stats_asset_path}"
+    stats = render_stats(fetch_stats(len(metrics)), stats_raw_url)
     text = README.read_text(encoding="utf-8")
 
     updated = replace_marked(text, START, END, block)
     updated = replace_marked(updated, ACTIVITY_START, ACTIVITY_END, activity)
+    updated = replace_marked(updated, STATS_START, STATS_END, stats)
     if updated == text:
         print("Leaderboard already up to date.")
         return
 
     README.write_text(updated, encoding="utf-8")
-    print(f"Updated leaderboard for {len(metrics)} members and {ACTIVITY_SVG}.")
+    print(f"Updated leaderboard for {len(metrics)} members, {STATS_SVG}, and {ACTIVITY_SVG}.")
 
 
 if __name__ == "__main__":

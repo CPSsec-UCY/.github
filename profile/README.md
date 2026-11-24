@@ -32,13 +32,13 @@ detection, and adversarial machine learning.
 
 ---
 
+<!-- STATS:START -->
 <div align="center">
 
-<img src="https://img.shields.io/github/commit-activity/y/CPSsec-UCY/.github?style=for-the-badge&amp;label=REPO_COMMITS%2FYEAR&amp;color=7ee787&amp;labelColor=0d1117" alt="Repository commits per year" />
-<img src="https://img.shields.io/github/followers/CPSsec-UCY?style=for-the-badge&amp;label=FOLLOWERS&amp;color=7ee787&amp;labelColor=0d1117" alt="Followers" />
-<img src="https://img.shields.io/github/last-commit/CPSsec-UCY/.github?style=for-the-badge&amp;label=LAST%20SYNC&amp;color=7ee787&amp;labelColor=0d1117" alt="Last sync" />
+<img src="https://raw.githubusercontent.com/CPSsec-UCY/.github/main/profile/assets/stats.svg?v=3effd7d2889d" width="100%" alt="CPSEC-UCY organization statistics" />
 
 </div>
+<!-- STATS:END -->
 
 ---
 
@@ -183,7 +183,7 @@ Operators with no commits in the window are hidden.</sub>
 <!-- ACTIVITY:START -->
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/CPSsec-UCY/.github/main/profile/assets/combined-activity.svg?v=5c02fb221e3b" width="100%" alt="Combined contribution activity across CPSEC-UCY operators" />
+<img src="https://raw.githubusercontent.com/CPSsec-UCY/.github/main/profile/assets/combined-activity.svg?v=0206eb5ac6ee" width="100%" alt="Combined contribution activity across CPSEC-UCY operators" />
 
 <sub>Combined public contribution activity · 7 operators · trailing 365 days</sub>
 </div>

@@ -6,6 +6,7 @@ This repository provides the GitHub organization profile for CPSEC-UCY.
 
 - `profile/README.md` — rendered on the organization homepage.
 - `profile/assets/combined-activity.svg` — generated combined contribution heatmap.
+- `profile/assets/stats.svg` — generated organization stats bar.
 - `.github/leaderboard-members.txt` — GitHub logins included in the leaderboard.
 - `.github/scripts/update_leaderboard.py` — computes streak and commit metrics and rewrites the leaderboard and activity blocks.
 - `.github/workflows/leaderboard.yml` — refreshes the leaderboard daily and on relevant changes.
@@ -16,7 +17,8 @@ The leaderboard is generated from GitHub contribution telemetry for the trailing
 renders ranked operator cards with avatars, commits per day, total commits, current streak,
 longest streak, and a status flag. Operators with zero commits in the window are hidden. The
 activity section (`// 02 · operator telemetry`) is a combined heatmap of all operators'
-public contributions, generated as a local SVG.
+public contributions, generated as a local SVG. The stats bar above the leaderboard is also
+local so it does not depend on third-party badge rendering.
 
 ### Refresh locally
 
@@ -25,10 +27,10 @@ LEADERBOARD_TOKEN="$(gh auth token)" python3 .github/scripts/update_leaderboard.
 ```
 
 The script replaces everything between `<!-- LEADERBOARD:START -->` and
-`<!-- LEADERBOARD:END -->`, and between `<!-- ACTIVITY:START -->` and
-`<!-- ACTIVITY:END -->`, in `profile/README.md`. It also writes
-`profile/assets/combined-activity.svg` and appends a content hash to the image URL so the
-GitHub image cache refreshes when the data changes.
+`<!-- LEADERBOARD:END -->`, between `<!-- ACTIVITY:START -->` and `<!-- ACTIVITY:END -->`,
+and between `<!-- STATS:START -->` and `<!-- STATS:END -->`, in `profile/README.md`. It also
+writes `profile/assets/combined-activity.svg` and `profile/assets/stats.svg`, appending a
+content hash to each image URL so the GitHub image cache refreshes when the data changes.
 
 ### Automated refresh
 
@@ -38,7 +40,7 @@ GitHub image cache refreshes when the data changes.
 - on manual `workflow_dispatch`
 - when the script, member list, or workflow changes on `main`
 
-The workflow commits the regenerated README and activity SVG with `github-actions[bot]`.
+The workflow commits the regenerated README, activity SVG, and stats SVG with `github-actions[bot]`.
 
 ### Members and tokens
 
