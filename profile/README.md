@@ -6,8 +6,8 @@
 
 <br/>
 
-<img src="https://img.shields.io/badge/UNIVERSITY_OF_CYPRUS-DEPARTMENT_OF_COMPUTER_SCIENCE-00FF41?style=for-the-badge&amp;labelColor=0d1117" alt="University of Cyprus — Department of Computer Science" />
-<img src="https://img.shields.io/badge/STATUS-OPERATIONAL-00FF41?style=for-the-badge&amp;labelColor=0d1117" alt="Status: operational" />
+<img src="https://img.shields.io/badge/UNIVERSITY_OF_CYPRUS-DEPARTMENT_OF_COMPUTER_SCIENCE-7ee787?style=for-the-badge&amp;labelColor=0d1117" alt="University of Cyprus — Department of Computer Science" />
+<img src="https://img.shields.io/badge/STATUS-OPERATIONAL-7ee787?style=for-the-badge&amp;labelColor=0d1117" alt="Status: operational" />
 
 <br/><br/>
 
@@ -34,9 +34,9 @@ detection, and adversarial machine learning.
 
 <div align="center">
 
-<img src="https://img.shields.io/github/commit-activity/y/CPSsec-UCY/.github?style=for-the-badge&amp;label=REPO_COMMITS%2FYEAR&amp;color=00FF41&amp;labelColor=0d1117" alt="Repository commits per year" />
-<img src="https://img.shields.io/github/followers/CPSsec-UCY?style=for-the-badge&amp;label=FOLLOWERS&amp;color=00FF41&amp;labelColor=0d1117" alt="Followers" />
-<img src="https://img.shields.io/github/last-commit/CPSsec-UCY/.github?style=for-the-badge&amp;label=LAST%20SYNC&amp;color=00FF41&amp;labelColor=0d1117" alt="Last sync" />
+<img src="https://img.shields.io/github/commit-activity/y/CPSsec-UCY/.github?style=for-the-badge&amp;label=REPO_COMMITS%2FYEAR&amp;color=7ee787&amp;labelColor=0d1117" alt="Repository commits per year" />
+<img src="https://img.shields.io/github/followers/CPSsec-UCY?style=for-the-badge&amp;label=FOLLOWERS&amp;color=7ee787&amp;labelColor=0d1117" alt="Followers" />
+<img src="https://img.shields.io/github/last-commit/CPSsec-UCY/.github?style=for-the-badge&amp;label=LAST%20SYNC&amp;color=7ee787&amp;labelColor=0d1117" alt="Last sync" />
 
 </div>
 
@@ -47,9 +47,9 @@ detection, and adversarial machine learning.
 <!-- LEADERBOARD:START -->
 <div align="center">
 
-<img src="https://img.shields.io/badge/TELEMETRY-TRAILING_365_DAYS-00FF41?style=for-the-badge&amp;labelColor=0d1117" alt="telemetry window" />
-<img src="https://img.shields.io/badge/SNAPSHOT-2026--11--24-00FF41?style=for-the-badge&amp;labelColor=0d1117" alt="snapshot date" />
-<img src="https://img.shields.io/badge/OPERATORS-7-00FF41?style=for-the-badge&amp;labelColor=0d1117" alt="operator count" />
+<img src="https://img.shields.io/badge/TELEMETRY-TRAILING_365_DAYS-7ee787?style=for-the-badge&amp;labelColor=0d1117" alt="telemetry window" />
+<img src="https://img.shields.io/badge/SNAPSHOT-2026--11--24-7ee787?style=for-the-badge&amp;labelColor=0d1117" alt="snapshot date" />
+<img src="https://img.shields.io/badge/OPERATORS-7-7ee787?style=for-the-badge&amp;labelColor=0d1117" alt="operator count" />
 
 <table>
 <tr>
@@ -60,11 +60,11 @@ detection, and adversarial machine learning.
 <br/>
 <b><a href="https://github.com/atsana01">@atsana01</a></b>
 <br/>
-<img src="https://img.shields.io/badge/COMMITS%2FDAY-3.19-00FF41?style=flat-square&amp;labelColor=0d1117" alt="commits per day" />
-<img src="https://img.shields.io/badge/TOTAL-1,164-00FF41?style=flat-square&amp;labelColor=0d1117" alt="total commits" />
+<img src="https://img.shields.io/badge/COMMITS%2FDAY-3.19-7ee787?style=flat-square&amp;labelColor=0d1117" alt="commits per day" />
+<img src="https://img.shields.io/badge/TOTAL-1,164-7ee787?style=flat-square&amp;labelColor=0d1117" alt="total commits" />
 <br/>
-<img src="https://img.shields.io/badge/STREAK-0d-00FF41?style=flat-square&amp;labelColor=0d1117" alt="current streak" />
-<img src="https://img.shields.io/badge/BEST-5d-00FF41?style=flat-square&amp;labelColor=0d1117" alt="longest streak" />
+<img src="https://img.shields.io/badge/STREAK-0d-7ee787?style=flat-square&amp;labelColor=0d1117" alt="current streak" />
+<img src="https://img.shields.io/badge/BEST-5d-7ee787?style=flat-square&amp;labelColor=0d1117" alt="longest streak" />
 <br/>
 <sub><code>LEAD</code></sub>
 </td>
@@ -75,26 +75,26 @@ detection, and adversarial machine learning.
 <br/>
 <b><a href="https://github.com/Slayingripper">@Slayingripper</a></b>
 <br/>
-<img src="https://img.shields.io/badge/COMMITS%2FDAY-0.17-00FF41?style=flat-square&amp;labelColor=0d1117" alt="commits per day" />
-<img src="https://img.shields.io/badge/TOTAL-62-00FF41?style=flat-square&amp;labelColor=0d1117" alt="total commits" />
+<img src="https://img.shields.io/badge/COMMITS%2FDAY-0.17-7ee787?style=flat-square&amp;labelColor=0d1117" alt="commits per day" />
+<img src="https://img.shields.io/badge/TOTAL-62-7ee787?style=flat-square&amp;labelColor=0d1117" alt="total commits" />
 <br/>
-<img src="https://img.shields.io/badge/STREAK-5d-00CC33?style=flat-square&amp;labelColor=0d1117" alt="current streak" />
-<img src="https://img.shields.io/badge/BEST-6d-00CC33?style=flat-square&amp;labelColor=0d1117" alt="longest streak" />
+<img src="https://img.shields.io/badge/STREAK-5d-7ee787?style=flat-square&amp;labelColor=0d1117" alt="current streak" />
+<img src="https://img.shields.io/badge/BEST-6d-7ee787?style=flat-square&amp;labelColor=0d1117" alt="longest streak" />
 <br/>
 <sub><code>ACTIVE</code></sub>
 </td>
 <td align="center" width="33%">
 <a href="https://github.com/HafizMuhammadSobanKhan"><img src="https://github.com/HafizMuhammadSobanKhan.png?size=160" width="112" height="112" alt="HafizMuhammadSobanKhan" /></a>
 <br/>
-<img src="https://img.shields.io/badge/RANK-03-CD7F32?style=for-the-badge&amp;labelColor=0d1117" alt="rank 3" />
+<img src="https://img.shields.io/badge/RANK-03-e0a96d?style=for-the-badge&amp;labelColor=0d1117" alt="rank 3" />
 <br/>
 <b><a href="https://github.com/HafizMuhammadSobanKhan">@HafizMuhammadSobanKhan</a></b>
 <br/>
-<img src="https://img.shields.io/badge/COMMITS%2FDAY-0.08-00FF41?style=flat-square&amp;labelColor=0d1117" alt="commits per day" />
-<img src="https://img.shields.io/badge/TOTAL-30-00FF41?style=flat-square&amp;labelColor=0d1117" alt="total commits" />
+<img src="https://img.shields.io/badge/COMMITS%2FDAY-0.08-7ee787?style=flat-square&amp;labelColor=0d1117" alt="commits per day" />
+<img src="https://img.shields.io/badge/TOTAL-30-7ee787?style=flat-square&amp;labelColor=0d1117" alt="total commits" />
 <br/>
-<img src="https://img.shields.io/badge/STREAK-0d-8B949E?style=flat-square&amp;labelColor=0d1117" alt="current streak" />
-<img src="https://img.shields.io/badge/BEST-1d-8B949E?style=flat-square&amp;labelColor=0d1117" alt="longest streak" />
+<img src="https://img.shields.io/badge/STREAK-0d-30363d?style=flat-square&amp;labelColor=0d1117" alt="current streak" />
+<img src="https://img.shields.io/badge/BEST-1d-30363d?style=flat-square&amp;labelColor=0d1117" alt="longest streak" />
 <br/>
 <sub><code>IDLE</code></sub>
 </td>
@@ -103,45 +103,45 @@ detection, and adversarial machine learning.
 <td align="center" width="33%">
 <a href="https://github.com/tsekoss"><img src="https://github.com/tsekoss.png?size=160" width="88" height="88" alt="tsekoss" /></a>
 <br/>
-<img src="https://img.shields.io/badge/RANK-04-00FF41?style=for-the-badge&amp;labelColor=0d1117" alt="rank 4" />
+<img src="https://img.shields.io/badge/RANK-04-7ee787?style=for-the-badge&amp;labelColor=0d1117" alt="rank 4" />
 <br/>
 <b><a href="https://github.com/tsekoss">@tsekoss</a></b>
 <br/>
-<img src="https://img.shields.io/badge/COMMITS%2FDAY-0.07-00FF41?style=flat-square&amp;labelColor=0d1117" alt="commits per day" />
-<img src="https://img.shields.io/badge/TOTAL-24-00FF41?style=flat-square&amp;labelColor=0d1117" alt="total commits" />
+<img src="https://img.shields.io/badge/COMMITS%2FDAY-0.07-7ee787?style=flat-square&amp;labelColor=0d1117" alt="commits per day" />
+<img src="https://img.shields.io/badge/TOTAL-24-7ee787?style=flat-square&amp;labelColor=0d1117" alt="total commits" />
 <br/>
-<img src="https://img.shields.io/badge/STREAK-2d-00CC33?style=flat-square&amp;labelColor=0d1117" alt="current streak" />
-<img src="https://img.shields.io/badge/BEST-2d-00CC33?style=flat-square&amp;labelColor=0d1117" alt="longest streak" />
+<img src="https://img.shields.io/badge/STREAK-2d-7ee787?style=flat-square&amp;labelColor=0d1117" alt="current streak" />
+<img src="https://img.shields.io/badge/BEST-2d-7ee787?style=flat-square&amp;labelColor=0d1117" alt="longest streak" />
 <br/>
 <sub><code>ACTIVE</code></sub>
 </td>
 <td align="center" width="33%">
 <a href="https://github.com/drousias"><img src="https://github.com/drousias.png?size=160" width="88" height="88" alt="drousias" /></a>
 <br/>
-<img src="https://img.shields.io/badge/RANK-05-00FF41?style=for-the-badge&amp;labelColor=0d1117" alt="rank 5" />
+<img src="https://img.shields.io/badge/RANK-05-7ee787?style=for-the-badge&amp;labelColor=0d1117" alt="rank 5" />
 <br/>
 <b><a href="https://github.com/drousias">@drousias</a></b>
 <br/>
-<img src="https://img.shields.io/badge/COMMITS%2FDAY-0.03-00FF41?style=flat-square&amp;labelColor=0d1117" alt="commits per day" />
-<img src="https://img.shields.io/badge/TOTAL-11-00FF41?style=flat-square&amp;labelColor=0d1117" alt="total commits" />
+<img src="https://img.shields.io/badge/COMMITS%2FDAY-0.03-7ee787?style=flat-square&amp;labelColor=0d1117" alt="commits per day" />
+<img src="https://img.shields.io/badge/TOTAL-11-7ee787?style=flat-square&amp;labelColor=0d1117" alt="total commits" />
 <br/>
-<img src="https://img.shields.io/badge/STREAK-1d-00CC33?style=flat-square&amp;labelColor=0d1117" alt="current streak" />
-<img src="https://img.shields.io/badge/BEST-6d-00CC33?style=flat-square&amp;labelColor=0d1117" alt="longest streak" />
+<img src="https://img.shields.io/badge/STREAK-1d-7ee787?style=flat-square&amp;labelColor=0d1117" alt="current streak" />
+<img src="https://img.shields.io/badge/BEST-6d-7ee787?style=flat-square&amp;labelColor=0d1117" alt="longest streak" />
 <br/>
 <sub><code>ACTIVE</code></sub>
 </td>
 <td align="center" width="33%">
 <a href="https://github.com/TheocharidesDimitris"><img src="https://github.com/TheocharidesDimitris.png?size=160" width="88" height="88" alt="TheocharidesDimitris" /></a>
 <br/>
-<img src="https://img.shields.io/badge/RANK-06-00FF41?style=for-the-badge&amp;labelColor=0d1117" alt="rank 6" />
+<img src="https://img.shields.io/badge/RANK-06-7ee787?style=for-the-badge&amp;labelColor=0d1117" alt="rank 6" />
 <br/>
 <b><a href="https://github.com/TheocharidesDimitris">@TheocharidesDimitris</a></b>
 <br/>
-<img src="https://img.shields.io/badge/COMMITS%2FDAY-0.02-00FF41?style=flat-square&amp;labelColor=0d1117" alt="commits per day" />
-<img src="https://img.shields.io/badge/TOTAL-6-00FF41?style=flat-square&amp;labelColor=0d1117" alt="total commits" />
+<img src="https://img.shields.io/badge/COMMITS%2FDAY-0.02-7ee787?style=flat-square&amp;labelColor=0d1117" alt="commits per day" />
+<img src="https://img.shields.io/badge/TOTAL-6-7ee787?style=flat-square&amp;labelColor=0d1117" alt="total commits" />
 <br/>
-<img src="https://img.shields.io/badge/STREAK-0d-8B949E?style=flat-square&amp;labelColor=0d1117" alt="current streak" />
-<img src="https://img.shields.io/badge/BEST-2d-8B949E?style=flat-square&amp;labelColor=0d1117" alt="longest streak" />
+<img src="https://img.shields.io/badge/STREAK-0d-30363d?style=flat-square&amp;labelColor=0d1117" alt="current streak" />
+<img src="https://img.shields.io/badge/BEST-2d-30363d?style=flat-square&amp;labelColor=0d1117" alt="longest streak" />
 <br/>
 <sub><code>IDLE</code></sub>
 </td>
@@ -151,15 +151,15 @@ detection, and adversarial machine learning.
 <td align="center" width="33%">
 <a href="https://github.com/Michael-Photiades"><img src="https://github.com/Michael-Photiades.png?size=160" width="88" height="88" alt="Michael-Photiades" /></a>
 <br/>
-<img src="https://img.shields.io/badge/RANK-07-00FF41?style=for-the-badge&amp;labelColor=0d1117" alt="rank 7" />
+<img src="https://img.shields.io/badge/RANK-07-7ee787?style=for-the-badge&amp;labelColor=0d1117" alt="rank 7" />
 <br/>
 <b><a href="https://github.com/Michael-Photiades">@Michael-Photiades</a></b>
 <br/>
-<img src="https://img.shields.io/badge/COMMITS%2FDAY-0.01-00FF41?style=flat-square&amp;labelColor=0d1117" alt="commits per day" />
-<img src="https://img.shields.io/badge/TOTAL-2-00FF41?style=flat-square&amp;labelColor=0d1117" alt="total commits" />
+<img src="https://img.shields.io/badge/COMMITS%2FDAY-0.01-7ee787?style=flat-square&amp;labelColor=0d1117" alt="commits per day" />
+<img src="https://img.shields.io/badge/TOTAL-2-7ee787?style=flat-square&amp;labelColor=0d1117" alt="total commits" />
 <br/>
-<img src="https://img.shields.io/badge/STREAK-0d-8B949E?style=flat-square&amp;labelColor=0d1117" alt="current streak" />
-<img src="https://img.shields.io/badge/BEST-4d-8B949E?style=flat-square&amp;labelColor=0d1117" alt="longest streak" />
+<img src="https://img.shields.io/badge/STREAK-0d-30363d?style=flat-square&amp;labelColor=0d1117" alt="current streak" />
+<img src="https://img.shields.io/badge/BEST-4d-30363d?style=flat-square&amp;labelColor=0d1117" alt="longest streak" />
 <br/>
 <sub><code>IDLE</code></sub>
 </td>
@@ -183,9 +183,9 @@ Operators with no commits in the window are hidden.</sub>
 <!-- ACTIVITY:START -->
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=atsana01&amp;theme=react-dark&amp;bg_color=0d1117&amp;color=00ff41&amp;line=00ff41&amp;point=ffffff&amp;area=true&amp;hide_border=true" width="100%" alt="Contribution activity for @atsana01" />
+<img src="https://raw.githubusercontent.com/CPSsec-UCY/.github/main/profile/assets/combined-activity.svg?v=82b820ea0622" width="100%" alt="Combined contribution activity across CPSEC-UCY operators" />
 
-<sub>Activity graph · top operator <a href="https://github.com/atsana01">@atsana01</a></sub>
+<sub>Combined public contribution activity · 7 operators · trailing 365 days</sub>
 </div>
 <!-- ACTIVITY:END -->
 
@@ -225,7 +225,7 @@ Operators with no commits in the window are hidden.</sub>
 <sub>TEE, remote attestation, and post-quantum cryptography for IoT</sub>
 <br/><br/>
 <img src="https://img.shields.io/badge/PYTHON-3776AB?style=flat-square&amp;logo=python&amp;logoColor=white" alt="Python" />
-<a href="https://github.com/CPSsec-UCY/Remote-IoT-Attestation"><img src="https://img.shields.io/badge/OPEN_REPO-00FF41?style=flat-square&amp;labelColor=0d1117" alt="Open repository" /></a>
+<a href="https://github.com/CPSsec-UCY/Remote-IoT-Attestation"><img src="https://img.shields.io/badge/OPEN_REPO-7ee787?style=flat-square&amp;labelColor=0d1117" alt="Open repository" /></a>
 </td>
 <td align="center" width="50%">
 <img src="https://api.iconify.design/mdi/server-security.svg?color=%2300ff41&amp;height=52" height="52" alt="" />
@@ -233,7 +233,7 @@ Operators with no commits in the window are hidden.</sub>
 <sub>Scalable cyber range on QEMU/KVM with a modern web interface</sub>
 <br/><br/>
 <img src="https://img.shields.io/badge/PYTHON-3776AB?style=flat-square&amp;logo=python&amp;logoColor=white" alt="Python" />
-<a href="https://github.com/CPSsec-UCY/KerberosCyberRange"><img src="https://img.shields.io/badge/OPEN_REPO-00FF41?style=flat-square&amp;labelColor=0d1117" alt="Open repository" /></a>
+<a href="https://github.com/CPSsec-UCY/KerberosCyberRange"><img src="https://img.shields.io/badge/OPEN_REPO-7ee787?style=flat-square&amp;labelColor=0d1117" alt="Open repository" /></a>
 </td>
 </tr>
 <tr>
@@ -243,7 +243,7 @@ Operators with no commits in the window are hidden.</sub>
 <sub>Blue/red team training dashboard and scenario toolkit</sub>
 <br/><br/>
 <img src="https://img.shields.io/badge/PYTHON-3776AB?style=flat-square&amp;logo=python&amp;logoColor=white" alt="Python" />
-<a href="https://github.com/CPSsec-UCY/Blue-Red-Training-scenarios"><img src="https://img.shields.io/badge/OPEN_REPO-00FF41?style=flat-square&amp;labelColor=0d1117" alt="Open repository" /></a>
+<a href="https://github.com/CPSsec-UCY/Blue-Red-Training-scenarios"><img src="https://img.shields.io/badge/OPEN_REPO-7ee787?style=flat-square&amp;labelColor=0d1117" alt="Open repository" /></a>
 </td>
 <td align="center" width="50%">
 <img src="https://api.iconify.design/mdi/radar.svg?color=%2300ff41&amp;height=52" height="52" alt="" />
@@ -251,7 +251,7 @@ Operators with no commits in the window are hidden.</sub>
 <sub>Policy decision point for the FOCAL project (WP2)</sub>
 <br/><br/>
 <img src="https://img.shields.io/badge/SHELL-4EAA25?style=flat-square&amp;logo=gnubash&amp;logoColor=white" alt="Shell" />
-<a href="https://github.com/CPSsec-UCY/FOCAL-PDP"><img src="https://img.shields.io/badge/OPEN_REPO-00FF41?style=flat-square&amp;labelColor=0d1117" alt="Open repository" /></a>
+<a href="https://github.com/CPSsec-UCY/FOCAL-PDP"><img src="https://img.shields.io/badge/OPEN_REPO-7ee787?style=flat-square&amp;labelColor=0d1117" alt="Open repository" /></a>
 </td>
 </tr>
 </table>
@@ -260,7 +260,7 @@ Operators with no commits in the window are hidden.</sub>
 
 <div align="center">
 
-<a href="https://github.com/CPSsec-UCY?tab=repositories"><img src="https://img.shields.io/badge/VIEW_ALL_REPOSITORIES-00FF41?style=for-the-badge&amp;labelColor=0d1117" alt="View all repositories" /></a>
+<a href="https://github.com/CPSsec-UCY?tab=repositories"><img src="https://img.shields.io/badge/VIEW_ALL_REPOSITORIES-7ee787?style=for-the-badge&amp;labelColor=0d1117" alt="View all repositories" /></a>
 
 </div>
 
@@ -275,8 +275,7 @@ projects, and joint publications.
 
 <br/><br/>
 
-<a href="https://www.cs.ucy.ac.cy/"><img src="https://img.shields.io/badge/START_A_CONVERSATION-WEBSITE-00FF41?style=for-the-badge&amp;labelColor=0d1117" alt="Start a conversation" /></a>
-<a href="mailto:security@cs.ucy.ac.cy"><img src="https://img.shields.io/badge/EMAIL-security%40cs.ucy.ac.cy-00FF41?style=for-the-badge&amp;labelColor=0d1117" alt="Email security@cs.ucy.ac.cy" /></a>
+<a href="https://www.cs.ucy.ac.cy/"><img src="https://img.shields.io/badge/START_A_CONVERSATION-WEBSITE-7ee787?style=for-the-badge&amp;labelColor=0d1117" alt="Start a conversation" /></a>
 
 </div>
 
@@ -286,7 +285,7 @@ projects, and joint publications.
 
 <img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:0d1117,50:00ff41,100:0d1117&amp;height=150&amp;section=footer&amp;text=STAY%20SECURE&amp;fontSize=36&amp;fontColor=00FF41&amp;animation=twinkling" width="100%" alt="Stay secure" />
 
-<img src="https://visitor-badge.laobi.icu/badge?page_id=CPSsec-UCY.CPSsec-UCY&amp;left_color=0d1117&amp;right_color=00FF41" alt="Visitors" />
+<img src="https://visitor-badge.laobi.icu/badge?page_id=CPSsec-UCY.CPSsec-UCY&amp;left_color=0d1117&amp;right_color=7ee787" alt="Visitors" />
 
 <sub><code>[EOF]</code> · connection closed · stay secure</sub>
 

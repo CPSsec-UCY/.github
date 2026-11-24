@@ -39,7 +39,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add profile/README.md
+          git add profile/README.md profile/assets/combined-activity.svg
           if git diff --cached --quiet; then
             echo "Leaderboard is already current."
             exit 0

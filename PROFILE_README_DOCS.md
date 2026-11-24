@@ -5,8 +5,9 @@ This repository provides the GitHub organization profile for CPSEC-UCY.
 ## Layout
 
 - `profile/README.md` — rendered on the organization homepage.
+- `profile/assets/combined-activity.svg` — generated combined contribution heatmap.
 - `.github/leaderboard-members.txt` — GitHub logins included in the leaderboard.
-- `.github/scripts/update_leaderboard.py` — computes streak and commit metrics and rewrites the leaderboard block.
+- `.github/scripts/update_leaderboard.py` — computes streak and commit metrics and rewrites the leaderboard and activity blocks.
 - `.github/workflows/leaderboard.yml` — refreshes the leaderboard daily and on relevant changes.
 
 ## Contribution leaderboard
@@ -14,7 +15,8 @@ This repository provides the GitHub organization profile for CPSEC-UCY.
 The leaderboard is generated from GitHub contribution telemetry for the trailing 365 days. It
 renders ranked operator cards with avatars, commits per day, total commits, current streak,
 longest streak, and a status flag. Operators with zero commits in the window are hidden. The
-activity graph under `// 02 · operator telemetry` follows the current velocity leader.
+activity section (`// 02 · operator telemetry`) is a combined heatmap of all operators'
+public contributions, generated as a local SVG.
 
 ### Refresh locally
 
@@ -24,7 +26,9 @@ LEADERBOARD_TOKEN="$(gh auth token)" python3 .github/scripts/update_leaderboard.
 
 The script replaces everything between `<!-- LEADERBOARD:START -->` and
 `<!-- LEADERBOARD:END -->`, and between `<!-- ACTIVITY:START -->` and
-`<!-- ACTIVITY:END -->`, in `profile/README.md`.
+`<!-- ACTIVITY:END -->`, in `profile/README.md`. It also writes
+`profile/assets/combined-activity.svg` and appends a content hash to the image URL so the
+GitHub image cache refreshes when the data changes.
 
 ### Automated refresh
 
@@ -34,7 +38,7 @@ The script replaces everything between `<!-- LEADERBOARD:START -->` and
 - on manual `workflow_dispatch`
 - when the script, member list, or workflow changes on `main`
 
-The workflow commits the regenerated README with `github-actions[bot]`.
+The workflow commits the regenerated README and activity SVG with `github-actions[bot]`.
 
 ### Members and tokens
 
