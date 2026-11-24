@@ -1,94 +1,293 @@
 <div align="center">
 
-```text
-╔══════════════════════════════════════════════════════════════╗
-║  CPSEC-UCY :: CYBER-PHYSICAL SYSTEMS SECURITY RESEARCH       ║
-║  Department of Computer Science · University of Cyprus       ║
-╚══════════════════════════════════════════════════════════════╝
-```
+<img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:0d1117,50:00ff41,100:0d1117&amp;height=220&amp;section=header&amp;text=CPSEC-UCY&amp;fontSize=64&amp;fontColor=00FF41&amp;fontAlignY=36&amp;desc=Cyber-Physical%20Systems%20Security%20Research&amp;descAlignY=56&amp;descSize=17&amp;animation=twinkling" width="100%" alt="CPSEC-UCY — Cyber-Physical Systems Security Research" />
 
-`[ access: granted ]` · `[ channel: secure ]` · `[ status: operational ]`
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&amp;weight=600&amp;size=22&amp;duration=3000&amp;pause=1000&amp;color=00FF41&amp;center=true&amp;vCenter=true&amp;width=900&amp;lines=Securing+the+physical+world;Breaking+then+hardening+critical+systems;IoT+%7C+ICS+%7C+Satellites+%7C+Attestation;%5Baccess+granted%5D" alt="Securing the physical world" />
+
+<br/>
+
+<img src="https://img.shields.io/badge/UNIVERSITY_OF_CYPRUS-DEPARTMENT_OF_COMPUTER_SCIENCE-00FF41?style=for-the-badge&amp;labelColor=0d1117" alt="University of Cyprus — Department of Computer Science" />
+<img src="https://img.shields.io/badge/STATUS-OPERATIONAL-00FF41?style=for-the-badge&amp;labelColor=0d1117" alt="Status: operational" />
+
+<br/><br/>
+
+<a href="https://www.cs.ucy.ac.cy/"><img src="https://img.shields.io/badge/WEBSITE-VISIT-0d1117?style=for-the-badge&amp;logo=googlechrome&amp;logoColor=00FF41" alt="Website" /></a>
+<a href="mailto:security@cs.ucy.ac.cy"><img src="https://img.shields.io/badge/EMAIL-CONTACT-0d1117?style=for-the-badge&amp;logo=gmail&amp;logoColor=00FF41" alt="Email" /></a>
+<a href="https://github.com/CPSsec-UCY"><img src="https://img.shields.io/badge/GITHUB-CPSsec--UCY-0d1117?style=for-the-badge&amp;logo=github&amp;logoColor=00FF41" alt="GitHub" /></a>
 
 </div>
 
 ---
 
-## // overview
+<div align="center">
 
-> $ whoami  
-> CPSEC-UCY — a research group securing the intersection of computation and the physical world.
+### Securing the physical world
 
 We design, break, and harden the systems that critical infrastructure depends on: embedded
 devices, industrial control networks, satellites, and the software supply chain behind them.
 Our work spans applied cryptography, remote attestation, firmware analysis, intrusion
 detection, and adversarial machine learning.
 
----
-
-## // contribution leaderboard
-
-<!-- LEADERBOARD:START -->
-`telemetry window: trailing 365 days` · `snapshot: 2026-11-24` · `scope: CPSEC-UCY operators`
-
-| RANK | OPERATIVE | COMMITS / DAY | TOTAL COMMITS | CURRENT STREAK | LONGEST STREAK | STATUS |
-|:----:|:----------|--------------:|--------------:|---------------:|---------------:|:-------|
-| 01 | [@atsana01](https://github.com/atsana01) | 3.19 | 1,164 | 0 | 5 | `LEAD` |
-| 02 | [@Slayingripper](https://github.com/Slayingripper) | 0.16 | 60 | 5 | 6 | `ACTIVE` |
-| 03 | [@HafizMuhammadSobanKhan](https://github.com/HafizMuhammadSobanKhan) | 0.08 | 30 | 0 | 1 | `IDLE` |
-| 04 | [@tsekoss](https://github.com/tsekoss) | 0.07 | 24 | 2 | 2 | `ACTIVE` |
-| 05 | [@drousias](https://github.com/drousias) | 0.03 | 11 | 1 | 6 | `ACTIVE` |
-| 06 | [@TheocharidesDimitris](https://github.com/TheocharidesDimitris) | 0.02 | 6 | 0 | 2 | `IDLE` |
-| 07 | [@Michael-Photiades](https://github.com/Michael-Photiades) | 0.01 | 2 | 0 | 4 | `IDLE` |
-| 08 | [@Ichrak-Mosref](https://github.com/Ichrak-Mosref) | 0.00 | 0 | 0 | 1 | `IDLE` |
-| 09 | [@kchris36](https://github.com/kchris36) | 0.00 | 0 | 0 | 1 | `IDLE` |
-| 10 | [@kos00pas](https://github.com/kos00pas) | 0.00 | 0 | 0 | 1 | `IDLE` |
-| 11 | [@theofanis678](https://github.com/theofanis678) | 0.00 | 0 | 0 | 1 | `IDLE` |
-| 12 | [@LazosLzr](https://github.com/LazosLzr) | 0.00 | 0 | 0 | 0 | `IDLE` |
-
-> `VELOCITY LEADER` → **@atsana01** · 3.19 commits/day  
-> `STREAK LEADER` → **@Slayingripper** · 5-day active streak
-
-<sub>Metrics are computed from public contribution telemetry over the last 365 days. Private
-contributions may be undercounted. Streaks count consecutive days with at least one commit.</sub>
-<!-- LEADERBOARD:END -->
-
----
-
-## // research tracks
-
-| TRACK | SCOPE |
-|:------|:------|
-| **Systems Security** | Hardware and firmware security, trusted execution environments, secure boot, remote attestation, embedded and IoT platforms |
-| **Network Security** | Industrial protocol analysis (CAN, Modbus, OPC-UA, MQTT), intrusion detection, network segmentation, cyber ranges |
-| **AI Security** | ML-based threat detection, adversarial machine learning, automated threat hunting, security of learning-enabled systems |
-
----
-
-## // featured repositories
-
-| REPOSITORY | FOCUS | STACK |
-|:-----------|:------|:------|
-| [Remote-IoT-Attestation](https://github.com/CPSsec-UCY/Remote-IoT-Attestation) | TEE, remote attestation, and post-quantum cryptography for IoT | Python |
-| [KerberosCyberRange](https://github.com/CPSsec-UCY/KerberosCyberRange) | Scalable cyber range built on QEMU/KVM with a modern web interface | Python |
-| [Blue-Red-Training-scenarios](https://github.com/CPSsec-UCY/Blue-Red-Training-scenarios) | Blue/red team training dashboard and scenario toolkit | Python |
-| [FOCAL-PDP](https://github.com/CPSsec-UCY/FOCAL-PDP) | Policy decision point for the FOCAL project (WP2) | Shell |
-| [PQubeSat](https://github.com/CPSsec-UCY/PQubeSat) | CubeSat platform work with post-quantum considerations | C |
-
----
-
-## // collaborate
-
-We work with academic groups, industry partners, and students on funded research, thesis
-projects, and joint publications.
-
-[Website](https://www.cs.ucy.ac.cy/) · [Email](mailto:security@cs.ucy.ac.cy) · [GitHub](https://github.com/CPSsec-UCY)
+</div>
 
 ---
 
 <div align="center">
 
-```text
-[EOF] — connection closed · stay secure
-```
+<img src="https://img.shields.io/github/commit-activity/y/CPSsec-UCY/.github?style=for-the-badge&amp;label=REPO_COMMITS%2FYEAR&amp;color=00FF41&amp;labelColor=0d1117" alt="Repository commits per year" />
+<img src="https://img.shields.io/github/followers/CPSsec-UCY?style=for-the-badge&amp;label=FOLLOWERS&amp;color=00FF41&amp;labelColor=0d1117" alt="Followers" />
+<img src="https://img.shields.io/github/last-commit/CPSsec-UCY/.github?style=for-the-badge&amp;label=LAST%20SYNC&amp;color=00FF41&amp;labelColor=0d1117" alt="Last sync" />
+
+</div>
+
+---
+
+## // 01 · contribution leaderboard
+
+<!-- LEADERBOARD:START -->
+<div align="center">
+
+<img src="https://img.shields.io/badge/TELEMETRY-TRAILING_365_DAYS-00FF41?style=for-the-badge&amp;labelColor=0d1117" alt="telemetry window" />
+<img src="https://img.shields.io/badge/SNAPSHOT-2026--11--24-00FF41?style=for-the-badge&amp;labelColor=0d1117" alt="snapshot date" />
+<img src="https://img.shields.io/badge/OPERATORS-7-00FF41?style=for-the-badge&amp;labelColor=0d1117" alt="operator count" />
+
+<table>
+<tr>
+<td align="center" width="33%">
+<a href="https://github.com/atsana01"><img src="https://github.com/atsana01.png?size=160" width="112" height="112" alt="atsana01" /></a>
+<br/>
+<img src="https://img.shields.io/badge/RANK-01-FFD700?style=for-the-badge&amp;labelColor=0d1117" alt="rank 1" />
+<br/>
+<b><a href="https://github.com/atsana01">@atsana01</a></b>
+<br/>
+<img src="https://img.shields.io/badge/COMMITS%2FDAY-3.19-00FF41?style=flat-square&amp;labelColor=0d1117" alt="commits per day" />
+<img src="https://img.shields.io/badge/TOTAL-1,164-00FF41?style=flat-square&amp;labelColor=0d1117" alt="total commits" />
+<br/>
+<img src="https://img.shields.io/badge/STREAK-0d-00FF41?style=flat-square&amp;labelColor=0d1117" alt="current streak" />
+<img src="https://img.shields.io/badge/BEST-5d-00FF41?style=flat-square&amp;labelColor=0d1117" alt="longest streak" />
+<br/>
+<sub><code>LEAD</code></sub>
+</td>
+<td align="center" width="33%">
+<a href="https://github.com/Slayingripper"><img src="https://github.com/Slayingripper.png?size=160" width="112" height="112" alt="Slayingripper" /></a>
+<br/>
+<img src="https://img.shields.io/badge/RANK-02-C0C0C0?style=for-the-badge&amp;labelColor=0d1117" alt="rank 2" />
+<br/>
+<b><a href="https://github.com/Slayingripper">@Slayingripper</a></b>
+<br/>
+<img src="https://img.shields.io/badge/COMMITS%2FDAY-0.17-00FF41?style=flat-square&amp;labelColor=0d1117" alt="commits per day" />
+<img src="https://img.shields.io/badge/TOTAL-61-00FF41?style=flat-square&amp;labelColor=0d1117" alt="total commits" />
+<br/>
+<img src="https://img.shields.io/badge/STREAK-5d-00CC33?style=flat-square&amp;labelColor=0d1117" alt="current streak" />
+<img src="https://img.shields.io/badge/BEST-6d-00CC33?style=flat-square&amp;labelColor=0d1117" alt="longest streak" />
+<br/>
+<sub><code>ACTIVE</code></sub>
+</td>
+<td align="center" width="33%">
+<a href="https://github.com/HafizMuhammadSobanKhan"><img src="https://github.com/HafizMuhammadSobanKhan.png?size=160" width="112" height="112" alt="HafizMuhammadSobanKhan" /></a>
+<br/>
+<img src="https://img.shields.io/badge/RANK-03-CD7F32?style=for-the-badge&amp;labelColor=0d1117" alt="rank 3" />
+<br/>
+<b><a href="https://github.com/HafizMuhammadSobanKhan">@HafizMuhammadSobanKhan</a></b>
+<br/>
+<img src="https://img.shields.io/badge/COMMITS%2FDAY-0.08-00FF41?style=flat-square&amp;labelColor=0d1117" alt="commits per day" />
+<img src="https://img.shields.io/badge/TOTAL-30-00FF41?style=flat-square&amp;labelColor=0d1117" alt="total commits" />
+<br/>
+<img src="https://img.shields.io/badge/STREAK-0d-8B949E?style=flat-square&amp;labelColor=0d1117" alt="current streak" />
+<img src="https://img.shields.io/badge/BEST-1d-8B949E?style=flat-square&amp;labelColor=0d1117" alt="longest streak" />
+<br/>
+<sub><code>IDLE</code></sub>
+</td>
+</tr>
+<tr>
+<td align="center" width="33%">
+<a href="https://github.com/tsekoss"><img src="https://github.com/tsekoss.png?size=160" width="88" height="88" alt="tsekoss" /></a>
+<br/>
+<img src="https://img.shields.io/badge/RANK-04-00FF41?style=for-the-badge&amp;labelColor=0d1117" alt="rank 4" />
+<br/>
+<b><a href="https://github.com/tsekoss">@tsekoss</a></b>
+<br/>
+<img src="https://img.shields.io/badge/COMMITS%2FDAY-0.07-00FF41?style=flat-square&amp;labelColor=0d1117" alt="commits per day" />
+<img src="https://img.shields.io/badge/TOTAL-24-00FF41?style=flat-square&amp;labelColor=0d1117" alt="total commits" />
+<br/>
+<img src="https://img.shields.io/badge/STREAK-2d-00CC33?style=flat-square&amp;labelColor=0d1117" alt="current streak" />
+<img src="https://img.shields.io/badge/BEST-2d-00CC33?style=flat-square&amp;labelColor=0d1117" alt="longest streak" />
+<br/>
+<sub><code>ACTIVE</code></sub>
+</td>
+<td align="center" width="33%">
+<a href="https://github.com/drousias"><img src="https://github.com/drousias.png?size=160" width="88" height="88" alt="drousias" /></a>
+<br/>
+<img src="https://img.shields.io/badge/RANK-05-00FF41?style=for-the-badge&amp;labelColor=0d1117" alt="rank 5" />
+<br/>
+<b><a href="https://github.com/drousias">@drousias</a></b>
+<br/>
+<img src="https://img.shields.io/badge/COMMITS%2FDAY-0.03-00FF41?style=flat-square&amp;labelColor=0d1117" alt="commits per day" />
+<img src="https://img.shields.io/badge/TOTAL-11-00FF41?style=flat-square&amp;labelColor=0d1117" alt="total commits" />
+<br/>
+<img src="https://img.shields.io/badge/STREAK-1d-00CC33?style=flat-square&amp;labelColor=0d1117" alt="current streak" />
+<img src="https://img.shields.io/badge/BEST-6d-00CC33?style=flat-square&amp;labelColor=0d1117" alt="longest streak" />
+<br/>
+<sub><code>ACTIVE</code></sub>
+</td>
+<td align="center" width="33%">
+<a href="https://github.com/TheocharidesDimitris"><img src="https://github.com/TheocharidesDimitris.png?size=160" width="88" height="88" alt="TheocharidesDimitris" /></a>
+<br/>
+<img src="https://img.shields.io/badge/RANK-06-00FF41?style=for-the-badge&amp;labelColor=0d1117" alt="rank 6" />
+<br/>
+<b><a href="https://github.com/TheocharidesDimitris">@TheocharidesDimitris</a></b>
+<br/>
+<img src="https://img.shields.io/badge/COMMITS%2FDAY-0.02-00FF41?style=flat-square&amp;labelColor=0d1117" alt="commits per day" />
+<img src="https://img.shields.io/badge/TOTAL-6-00FF41?style=flat-square&amp;labelColor=0d1117" alt="total commits" />
+<br/>
+<img src="https://img.shields.io/badge/STREAK-0d-8B949E?style=flat-square&amp;labelColor=0d1117" alt="current streak" />
+<img src="https://img.shields.io/badge/BEST-2d-8B949E?style=flat-square&amp;labelColor=0d1117" alt="longest streak" />
+<br/>
+<sub><code>IDLE</code></sub>
+</td>
+</tr>
+<tr>
+<td width="33%"></td>
+<td align="center" width="33%">
+<a href="https://github.com/Michael-Photiades"><img src="https://github.com/Michael-Photiades.png?size=160" width="88" height="88" alt="Michael-Photiades" /></a>
+<br/>
+<img src="https://img.shields.io/badge/RANK-07-00FF41?style=for-the-badge&amp;labelColor=0d1117" alt="rank 7" />
+<br/>
+<b><a href="https://github.com/Michael-Photiades">@Michael-Photiades</a></b>
+<br/>
+<img src="https://img.shields.io/badge/COMMITS%2FDAY-0.01-00FF41?style=flat-square&amp;labelColor=0d1117" alt="commits per day" />
+<img src="https://img.shields.io/badge/TOTAL-2-00FF41?style=flat-square&amp;labelColor=0d1117" alt="total commits" />
+<br/>
+<img src="https://img.shields.io/badge/STREAK-0d-8B949E?style=flat-square&amp;labelColor=0d1117" alt="current streak" />
+<img src="https://img.shields.io/badge/BEST-4d-8B949E?style=flat-square&amp;labelColor=0d1117" alt="longest streak" />
+<br/>
+<sub><code>IDLE</code></sub>
+</td>
+<td width="33%"></td>
+</tr>
+</table>
+
+<p><b>VELOCITY LEADER</b> &rarr; <a href="https://github.com/atsana01">@atsana01</a> · 3.19 commits/day<br/>
+<b>STREAK LEADER</b> &rarr; <a href="https://github.com/Slayingripper">@Slayingripper</a> · 5-day active streak</p>
+
+<sub>Metrics are computed from public contribution telemetry over the last 365 days. Private
+contributions may be undercounted. Streaks count consecutive days with at least one commit.
+Operators with no commits in the window are hidden.</sub>
+</div>
+<!-- LEADERBOARD:END -->
+
+---
+
+## // 02 · operator telemetry
+
+<!-- ACTIVITY:START -->
+<div align="center">
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=atsana01&amp;theme=react-dark&amp;bg_color=0d1117&amp;color=00ff41&amp;line=00ff41&amp;point=ffffff&amp;area=true&amp;hide_border=true" width="100%" alt="Contribution activity for @atsana01" />
+
+<sub>Activity graph · top operator <a href="https://github.com/atsana01">@atsana01</a></sub>
+</div>
+<!-- ACTIVITY:END -->
+
+---
+
+## // 03 · research tracks
+
+<table>
+<tr>
+<td align="center" width="33%">
+<img src="https://api.iconify.design/mdi/memory.svg?color=%2300ff41&amp;height=56" height="56" alt="" />
+<h3>Systems Security</h3>
+<sub>Hardware &amp; firmware · TEEs · secure boot · remote attestation · embedded &amp; IoT</sub>
+</td>
+<td align="center" width="33%">
+<img src="https://api.iconify.design/mdi/lan.svg?color=%2300ff41&amp;height=56" height="56" alt="" />
+<h3>Network Security</h3>
+<sub>CAN · Modbus · OPC-UA · MQTT · intrusion detection · segmentation · cyber ranges</sub>
+</td>
+<td align="center" width="33%">
+<img src="https://api.iconify.design/mdi/robot.svg?color=%2300ff41&amp;height=56" height="56" alt="" />
+<h3>AI Security</h3>
+<sub>ML threat detection · adversarial ML · automated threat hunting · learning-enabled systems</sub>
+</td>
+</tr>
+</table>
+
+---
+
+## // 04 · featured repositories
+
+<table>
+<tr>
+<td align="center" width="50%">
+<img src="https://api.iconify.design/mdi/shield-lock.svg?color=%2300ff41&amp;height=52" height="52" alt="" />
+<h3>Remote-IoT-Attestation</h3>
+<sub>TEE, remote attestation, and post-quantum cryptography for IoT</sub>
+<br/><br/>
+<img src="https://img.shields.io/badge/PYTHON-3776AB?style=flat-square&amp;logo=python&amp;logoColor=white" alt="Python" />
+<a href="https://github.com/CPSsec-UCY/Remote-IoT-Attestation"><img src="https://img.shields.io/badge/OPEN_REPO-00FF41?style=flat-square&amp;labelColor=0d1117" alt="Open repository" /></a>
+</td>
+<td align="center" width="50%">
+<img src="https://api.iconify.design/mdi/server-security.svg?color=%2300ff41&amp;height=52" height="52" alt="" />
+<h3>KerberosCyberRange</h3>
+<sub>Scalable cyber range on QEMU/KVM with a modern web interface</sub>
+<br/><br/>
+<img src="https://img.shields.io/badge/PYTHON-3776AB?style=flat-square&amp;logo=python&amp;logoColor=white" alt="Python" />
+<a href="https://github.com/CPSsec-UCY/KerberosCyberRange"><img src="https://img.shields.io/badge/OPEN_REPO-00FF41?style=flat-square&amp;labelColor=0d1117" alt="Open repository" /></a>
+</td>
+</tr>
+<tr>
+<td align="center" width="50%">
+<img src="https://api.iconify.design/mdi/sword-cross.svg?color=%2300ff41&amp;height=52" height="52" alt="" />
+<h3>Blue-Red-Training-scenarios</h3>
+<sub>Blue/red team training dashboard and scenario toolkit</sub>
+<br/><br/>
+<img src="https://img.shields.io/badge/PYTHON-3776AB?style=flat-square&amp;logo=python&amp;logoColor=white" alt="Python" />
+<a href="https://github.com/CPSsec-UCY/Blue-Red-Training-scenarios"><img src="https://img.shields.io/badge/OPEN_REPO-00FF41?style=flat-square&amp;labelColor=0d1117" alt="Open repository" /></a>
+</td>
+<td align="center" width="50%">
+<img src="https://api.iconify.design/mdi/radar.svg?color=%2300ff41&amp;height=52" height="52" alt="" />
+<h3>FOCAL-PDP</h3>
+<sub>Policy decision point for the FOCAL project (WP2)</sub>
+<br/><br/>
+<img src="https://img.shields.io/badge/SHELL-4EAA25?style=flat-square&amp;logo=gnubash&amp;logoColor=white" alt="Shell" />
+<a href="https://github.com/CPSsec-UCY/FOCAL-PDP"><img src="https://img.shields.io/badge/OPEN_REPO-00FF41?style=flat-square&amp;labelColor=0d1117" alt="Open repository" /></a>
+</td>
+</tr>
+</table>
+
+<br/>
+
+<div align="center">
+
+<a href="https://github.com/CPSsec-UCY?tab=repositories"><img src="https://img.shields.io/badge/VIEW_ALL_REPOSITORIES-00FF41?style=for-the-badge&amp;labelColor=0d1117" alt="View all repositories" /></a>
+
+</div>
+
+---
+
+## // 05 · collaborate
+
+<div align="center">
+
+We work with academic groups, industry partners, and students on funded research, thesis
+projects, and joint publications.
+
+<br/><br/>
+
+<a href="https://www.cs.ucy.ac.cy/"><img src="https://img.shields.io/badge/START_A_CONVERSATION-WEBSITE-00FF41?style=for-the-badge&amp;labelColor=0d1117" alt="Start a conversation" /></a>
+<a href="mailto:security@cs.ucy.ac.cy"><img src="https://img.shields.io/badge/EMAIL-security%40cs.ucy.ac.cy-00FF41?style=for-the-badge&amp;labelColor=0d1117" alt="Email security@cs.ucy.ac.cy" /></a>
+
+</div>
+
+---
+
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:0d1117,50:00ff41,100:0d1117&amp;height=150&amp;section=footer&amp;text=STAY%20SECURE&amp;fontSize=36&amp;fontColor=00FF41&amp;animation=twinkling" width="100%" alt="Stay secure" />
+
+<img src="https://visitor-badge.laobi.icu/badge?page_id=CPSsec-UCY.CPSsec-UCY&amp;left_color=0d1117&amp;right_color=00FF41" alt="Visitors" />
+
+<sub><code>[EOF]</code> · connection closed · stay secure</sub>
 
 </div>

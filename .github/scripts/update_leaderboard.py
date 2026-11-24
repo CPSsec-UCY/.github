@@ -17,6 +17,8 @@ MEMBERS_FILE = Path(
 )
 START = "<!-- LEADERBOARD:START -->"
 END = "<!-- LEADERBOARD:END -->"
+ACTIVITY_START = "<!-- ACTIVITY:START -->"
+ACTIVITY_END = "<!-- ACTIVITY:END -->"
 WINDOW_DAYS = 365
 API = "https://api.github.com"
 GRAPHQL = f"{API}/graphql"
@@ -128,6 +130,36 @@ def fetch_metrics(login):
     }
 
 
+def status_for(rank, item):
+    if rank == 1:
+        return "LEAD", "00FF41"
+    if item["current_streak"] > 0:
+        return "ACTIVE", "00CC33"
+    return "IDLE", "8B949E"
+
+
+def render_card(item, rank):
+    login = item["login"]
+    status, status_color = status_for(rank, item)
+    rank_color = {1: "FFD700", 2: "C0C0C0", 3: "CD7F32"}.get(rank, "00FF41")
+    avatar_size = 112 if rank <= 3 else 88
+    return f"""<td align="center" width="33%">
+<a href="https://github.com/{login}"><img src="https://github.com/{login}.png?size=160" width="{avatar_size}" height="{avatar_size}" alt="{login}" /></a>
+<br/>
+<img src="https://img.shields.io/badge/RANK-{rank:02d}-{rank_color}?style=for-the-badge&amp;labelColor=0d1117" alt="rank {rank}" />
+<br/>
+<b><a href="https://github.com/{login}">@{login}</a></b>
+<br/>
+<img src="https://img.shields.io/badge/COMMITS%2FDAY-{item['commits_per_day']:.2f}-00FF41?style=flat-square&amp;labelColor=0d1117" alt="commits per day" />
+<img src="https://img.shields.io/badge/TOTAL-{item['total_commits']:,}-00FF41?style=flat-square&amp;labelColor=0d1117" alt="total commits" />
+<br/>
+<img src="https://img.shields.io/badge/STREAK-{item['current_streak']}d-{status_color}?style=flat-square&amp;labelColor=0d1117" alt="current streak" />
+<img src="https://img.shields.io/badge/BEST-{item['longest_streak']}d-{status_color}?style=flat-square&amp;labelColor=0d1117" alt="longest streak" />
+<br/>
+<sub><code>{status}</code></sub>
+</td>"""
+
+
 def render(metrics, snapshot):
     metrics.sort(
         key=lambda item: (
@@ -140,24 +172,25 @@ def render(metrics, snapshot):
 
     lines = [
         START,
-        f"`telemetry window: trailing {WINDOW_DAYS} days` · `snapshot: {snapshot}` · `scope: CPSEC-UCY operators`",
+        '<div align="center">',
         "",
-        "| RANK | OPERATIVE | COMMITS / DAY | TOTAL COMMITS | CURRENT STREAK | LONGEST STREAK | STATUS |",
-        "|:----:|:----------|--------------:|--------------:|---------------:|---------------:|:-------|",
+        '<img src="https://img.shields.io/badge/TELEMETRY-TRAILING_365_DAYS-00FF41?style=for-the-badge&amp;labelColor=0d1117" alt="telemetry window" />',
+        f'<img src="https://img.shields.io/badge/SNAPSHOT-{snapshot.replace("-", "--")}-00FF41?style=for-the-badge&amp;labelColor=0d1117" alt="snapshot date" />',
+        f'<img src="https://img.shields.io/badge/OPERATORS-{len(metrics)}-00FF41?style=for-the-badge&amp;labelColor=0d1117" alt="operator count" />',
+        "",
+        "<table>",
     ]
 
-    for rank, item in enumerate(metrics, start=1):
-        if rank == 1:
-            status = "LEAD"
-        elif item["current_streak"] > 0:
-            status = "ACTIVE"
-        else:
-            status = "IDLE"
-        lines.append(
-            f"| {rank:02d} | [@{item['login']}](https://github.com/{item['login']}) "
-            f"| {item['commits_per_day']:.2f} | {item['total_commits']:,} "
-            f"| {item['current_streak']} | {item['longest_streak']} | `{status}` |"
-        )
+    for start in range(0, len(metrics), 3):
+        chunk = metrics[start : start + 3]
+        lines.append("<tr>")
+        if len(chunk) == 1:
+            lines.append('<td width="33%"></td>')
+        for offset, item in enumerate(chunk, start=start + 1):
+            lines.append(render_card(item, offset))
+        if len(chunk) < 3:
+            lines.append('<td width="33%"></td>')
+        lines.append("</tr>")
 
     velocity = metrics[0]
     streak = max(
@@ -175,16 +208,43 @@ def render(metrics, snapshot):
 
     lines.extend(
         [
+            "</table>",
             "",
-            f"> `VELOCITY LEADER` → **@{velocity['login']}** · {velocity['commits_per_day']:.2f} commits/day  ",
-            f"> `STREAK LEADER` → **@{streak['login']}** · {streak_text}",
+            f'<p><b>VELOCITY LEADER</b> &rarr; <a href="https://github.com/{velocity["login"]}">@{velocity["login"]}</a> · {velocity["commits_per_day"]:.2f} commits/day<br/>',
+            f'<b>STREAK LEADER</b> &rarr; <a href="https://github.com/{streak["login"]}">@{streak["login"]}</a> · {streak_text}</p>',
             "",
             "<sub>Metrics are computed from public contribution telemetry over the last 365 days. Private",
-            "contributions may be undercounted. Streaks count consecutive days with at least one commit.</sub>",
+            "contributions may be undercounted. Streaks count consecutive days with at least one commit.",
+            "Operators with no commits in the window are hidden.</sub>",
+            "</div>",
             END,
         ]
     )
     return "\n".join(lines)
+
+
+def render_activity(metrics):
+    top = metrics[0]
+    login = top["login"]
+    return "\n".join(
+        [
+            ACTIVITY_START,
+            '<div align="center">',
+            "",
+            f'<img src="https://github-readme-activity-graph.vercel.app/graph?username={login}&amp;theme=react-dark&amp;bg_color=0d1117&amp;color=00ff41&amp;line=00ff41&amp;point=ffffff&amp;area=true&amp;hide_border=true" width="100%" alt="Contribution activity for @{login}" />',
+            "",
+            f'<sub>Activity graph · top operator <a href="https://github.com/{login}">@{login}</a></sub>',
+            "</div>",
+            ACTIVITY_END,
+        ]
+    )
+
+
+def replace_marked(text, start, end, block):
+    pattern = re.compile(re.escape(start) + r".*?" + re.escape(end), re.DOTALL)
+    if not pattern.search(text):
+        raise RuntimeError(f"Markers not found: {start} / {end}")
+    return pattern.sub(lambda _: block, text)
 
 
 def main():
@@ -192,7 +252,7 @@ def main():
     metrics = []
     for login in members:
         item = fetch_metrics(login)
-        if item:
+        if item and item["total_commits"] > 0:
             metrics.append(item)
 
     if not metrics:
@@ -200,13 +260,11 @@ def main():
 
     snapshot = datetime.now(timezone.utc).strftime("%Y-%m-%d")
     block = render(metrics, snapshot)
+    activity = render_activity(metrics)
     text = README.read_text(encoding="utf-8")
-    pattern = re.compile(re.escape(START) + r".*?" + re.escape(END), re.DOTALL)
 
-    if not pattern.search(text):
-        raise RuntimeError(f"Leaderboard markers not found in {README}")
-
-    updated = pattern.sub(lambda _: block, text)
+    updated = replace_marked(text, START, END, block)
+    updated = replace_marked(updated, ACTIVITY_START, ACTIVITY_END, activity)
     if updated == text:
         print("Leaderboard already up to date.")
         return

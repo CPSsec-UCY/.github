@@ -12,7 +12,9 @@ This repository provides the GitHub organization profile for CPSEC-UCY.
 ## Contribution leaderboard
 
 The leaderboard is generated from GitHub contribution telemetry for the trailing 365 days. It
-reports commits per day, total commits, current streak, longest streak, and a status flag.
+renders ranked operator cards with avatars, commits per day, total commits, current streak,
+longest streak, and a status flag. Operators with zero commits in the window are hidden. The
+activity graph under `// 02 · operator telemetry` follows the current velocity leader.
 
 ### Refresh locally
 
@@ -21,7 +23,8 @@ LEADERBOARD_TOKEN="$(gh auth token)" python3 .github/scripts/update_leaderboard.
 ```
 
 The script replaces everything between `<!-- LEADERBOARD:START -->` and
-`<!-- LEADERBOARD:END -->` in `profile/README.md`.
+`<!-- LEADERBOARD:END -->`, and between `<!-- ACTIVITY:START -->` and
+`<!-- ACTIVITY:END -->`, in `profile/README.md`.
 
 ### Automated refresh
 
