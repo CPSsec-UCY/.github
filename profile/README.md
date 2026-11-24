@@ -33,7 +33,7 @@ detection, and adversarial machine learning.
 | RANK | OPERATIVE | COMMITS / DAY | TOTAL COMMITS | CURRENT STREAK | LONGEST STREAK | STATUS |
 |:----:|:----------|--------------:|--------------:|---------------:|---------------:|:-------|
 | 01 | [@atsana01](https://github.com/atsana01) | 3.19 | 1,164 | 0 | 5 | `LEAD` |
-| 02 | [@Slayingripper](https://github.com/Slayingripper) | 0.16 | 59 | 5 | 6 | `ACTIVE` |
+| 02 | [@Slayingripper](https://github.com/Slayingripper) | 0.16 | 60 | 5 | 6 | `ACTIVE` |
 | 03 | [@HafizMuhammadSobanKhan](https://github.com/HafizMuhammadSobanKhan) | 0.08 | 30 | 0 | 1 | `IDLE` |
 | 04 | [@tsekoss](https://github.com/tsekoss) | 0.07 | 24 | 2 | 2 | `ACTIVE` |
 | 05 | [@drousias](https://github.com/drousias) | 0.03 | 11 | 1 | 6 | `ACTIVE` |
