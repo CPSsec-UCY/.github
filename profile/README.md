@@ -34,7 +34,7 @@ detection, and adversarial machine learning.
 <!-- STATS:START -->
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/CPSsec-UCY/.github/main/profile/assets/stats.svg?v=b2dec58117ac" width="100%" alt="CPSEC-UCY organization statistics" />
+<img src="https://raw.githubusercontent.com/CPSsec-UCY/.github/main/profile/assets/stats.svg?v=be68449dd176" width="100%" alt="CPSEC-UCY organization statistics" />
 
 </div>
 <!-- STATS:END -->
@@ -47,7 +47,7 @@ detection, and adversarial machine learning.
 <div align="center">
 
 <img src="https://img.shields.io/badge/TELEMETRY-TRAILING_365_DAYS-7ee787?style=for-the-badge&amp;labelColor=0d1117" alt="telemetry window" />
-<img src="https://img.shields.io/badge/SNAPSHOT-2026--11--24-7ee787?style=for-the-badge&amp;labelColor=0d1117" alt="snapshot date" />
+<img src="https://img.shields.io/badge/SNAPSHOT-2026--11--25-7ee787?style=for-the-badge&amp;labelColor=0d1117" alt="snapshot date" />
 <img src="https://img.shields.io/badge/OPERATORS-7-7ee787?style=for-the-badge&amp;labelColor=0d1117" alt="operator count" />
 
 <table>
@@ -59,8 +59,8 @@ detection, and adversarial machine learning.
 <br/>
 <b><a href="https://github.com/atsana01">@atsana01</a></b>
 <br/>
-<img src="https://img.shields.io/badge/COMMITS%2FDAY-3.19-7ee787?style=flat-square&amp;labelColor=0d1117" alt="commits per day" />
-<img src="https://img.shields.io/badge/TOTAL-1,164-7ee787?style=flat-square&amp;labelColor=0d1117" alt="total commits" />
+<img src="https://img.shields.io/badge/COMMITS%2FDAY-3.87-7ee787?style=flat-square&amp;labelColor=0d1117" alt="commits per day" />
+<img src="https://img.shields.io/badge/TOTAL-1,414-7ee787?style=flat-square&amp;labelColor=0d1117" alt="total commits" />
 <br/>
 <img src="https://img.shields.io/badge/STREAK-0d-7ee787?style=flat-square&amp;labelColor=0d1117" alt="current streak" />
 <img src="https://img.shields.io/badge/BEST-5d-7ee787?style=flat-square&amp;labelColor=0d1117" alt="longest streak" />
@@ -74,10 +74,10 @@ detection, and adversarial machine learning.
 <br/>
 <b><a href="https://github.com/Slayingripper">@Slayingripper</a></b>
 <br/>
-<img src="https://img.shields.io/badge/COMMITS%2FDAY-0.18-7ee787?style=flat-square&amp;labelColor=0d1117" alt="commits per day" />
-<img src="https://img.shields.io/badge/TOTAL-64-7ee787?style=flat-square&amp;labelColor=0d1117" alt="total commits" />
+<img src="https://img.shields.io/badge/COMMITS%2FDAY-0.22-7ee787?style=flat-square&amp;labelColor=0d1117" alt="commits per day" />
+<img src="https://img.shields.io/badge/TOTAL-82-7ee787?style=flat-square&amp;labelColor=0d1117" alt="total commits" />
 <br/>
-<img src="https://img.shields.io/badge/STREAK-5d-7ee787?style=flat-square&amp;labelColor=0d1117" alt="current streak" />
+<img src="https://img.shields.io/badge/STREAK-6d-7ee787?style=flat-square&amp;labelColor=0d1117" alt="current streak" />
 <img src="https://img.shields.io/badge/BEST-6d-7ee787?style=flat-square&amp;labelColor=0d1117" alt="longest streak" />
 <br/>
 <sub><code>ACTIVE</code></sub>
@@ -106,11 +106,11 @@ detection, and adversarial machine learning.
 <br/>
 <b><a href="https://github.com/tsekoss">@tsekoss</a></b>
 <br/>
-<img src="https://img.shields.io/badge/COMMITS%2FDAY-0.07-7ee787?style=flat-square&amp;labelColor=0d1117" alt="commits per day" />
-<img src="https://img.shields.io/badge/TOTAL-24-7ee787?style=flat-square&amp;labelColor=0d1117" alt="total commits" />
+<img src="https://img.shields.io/badge/COMMITS%2FDAY-0.08-7ee787?style=flat-square&amp;labelColor=0d1117" alt="commits per day" />
+<img src="https://img.shields.io/badge/TOTAL-28-7ee787?style=flat-square&amp;labelColor=0d1117" alt="total commits" />
 <br/>
-<img src="https://img.shields.io/badge/STREAK-2d-7ee787?style=flat-square&amp;labelColor=0d1117" alt="current streak" />
-<img src="https://img.shields.io/badge/BEST-2d-7ee787?style=flat-square&amp;labelColor=0d1117" alt="longest streak" />
+<img src="https://img.shields.io/badge/STREAK-3d-7ee787?style=flat-square&amp;labelColor=0d1117" alt="current streak" />
+<img src="https://img.shields.io/badge/BEST-3d-7ee787?style=flat-square&amp;labelColor=0d1117" alt="longest streak" />
 <br/>
 <sub><code>ACTIVE</code></sub>
 </td>
@@ -166,8 +166,8 @@ detection, and adversarial machine learning.
 </tr>
 </table>
 
-<p><b>VELOCITY LEADER</b> &rarr; <a href="https://github.com/atsana01">@atsana01</a> · 3.19 commits/day<br/>
-<b>STREAK LEADER</b> &rarr; <a href="https://github.com/Slayingripper">@Slayingripper</a> · 5-day active streak</p>
+<p><b>VELOCITY LEADER</b> &rarr; <a href="https://github.com/atsana01">@atsana01</a> · 3.87 commits/day<br/>
+<b>STREAK LEADER</b> &rarr; <a href="https://github.com/Slayingripper">@Slayingripper</a> · 6-day active streak</p>
 
 <sub>Metrics are computed from public contribution telemetry over the last 365 days. Private
 contributions may be undercounted. Streaks count consecutive days with at least one commit.
@@ -182,7 +182,7 @@ Operators with no commits in the window are hidden.</sub>
 <!-- ACTIVITY:START -->
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/CPSsec-UCY/.github/main/profile/assets/combined-activity.svg?v=4b26b3dd363b" width="100%" alt="Combined contribution activity across CPSEC-UCY operators" />
+<img src="https://raw.githubusercontent.com/CPSsec-UCY/.github/main/profile/assets/combined-activity.svg?v=786cf4ff8a85" width="100%" alt="Combined contribution activity across CPSEC-UCY operators" />
 
 <sub>Combined public contribution activity · 7 operators · trailing 365 days</sub>
 </div>
