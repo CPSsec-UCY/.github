@@ -34,7 +34,7 @@ detection, and adversarial machine learning.
 <!-- STATS:START -->
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/CPSsec-UCY/.github/main/profile/assets/stats.svg?v=be68449dd176" width="100%" alt="CPSEC-UCY organization statistics" />
+<img src="https://raw.githubusercontent.com/CPSsec-UCY/.github/main/profile/assets/stats.svg?v=0ab7bbece318" width="100%" alt="CPSEC-UCY organization statistics" />
 
 </div>
 <!-- STATS:END -->
@@ -47,7 +47,7 @@ detection, and adversarial machine learning.
 <div align="center">
 
 <img src="https://img.shields.io/badge/TELEMETRY-TRAILING_365_DAYS-7ee787?style=for-the-badge&amp;labelColor=0d1117" alt="telemetry window" />
-<img src="https://img.shields.io/badge/SNAPSHOT-2026--11--25-7ee787?style=for-the-badge&amp;labelColor=0d1117" alt="snapshot date" />
+<img src="https://img.shields.io/badge/SNAPSHOT-2026--11--26-7ee787?style=for-the-badge&amp;labelColor=0d1117" alt="snapshot date" />
 <img src="https://img.shields.io/badge/OPERATORS-7-7ee787?style=for-the-badge&amp;labelColor=0d1117" alt="operator count" />
 
 <table>
@@ -83,9 +83,26 @@ detection, and adversarial machine learning.
 <sub><code>ACTIVE</code></sub>
 </td>
 <td align="center" width="33%">
-<a href="https://github.com/HafizMuhammadSobanKhan"><img src="https://github.com/HafizMuhammadSobanKhan.png?size=160" width="112" height="112" alt="HafizMuhammadSobanKhan" /></a>
+<a href="https://github.com/tsekoss"><img src="https://github.com/tsekoss.png?size=160" width="112" height="112" alt="tsekoss" /></a>
 <br/>
 <img src="https://img.shields.io/badge/RANK-03-e0a96d?style=for-the-badge&amp;labelColor=0d1117" alt="rank 3" />
+<br/>
+<b><a href="https://github.com/tsekoss">@tsekoss</a></b>
+<br/>
+<img src="https://img.shields.io/badge/COMMITS%2FDAY-0.09-7ee787?style=flat-square&amp;labelColor=0d1117" alt="commits per day" />
+<img src="https://img.shields.io/badge/TOTAL-32-7ee787?style=flat-square&amp;labelColor=0d1117" alt="total commits" />
+<br/>
+<img src="https://img.shields.io/badge/STREAK-5d-7ee787?style=flat-square&amp;labelColor=0d1117" alt="current streak" />
+<img src="https://img.shields.io/badge/BEST-5d-7ee787?style=flat-square&amp;labelColor=0d1117" alt="longest streak" />
+<br/>
+<sub><code>ACTIVE</code></sub>
+</td>
+</tr>
+<tr>
+<td align="center" width="33%">
+<a href="https://github.com/HafizMuhammadSobanKhan"><img src="https://github.com/HafizMuhammadSobanKhan.png?size=160" width="88" height="88" alt="HafizMuhammadSobanKhan" /></a>
+<br/>
+<img src="https://img.shields.io/badge/RANK-04-7ee787?style=for-the-badge&amp;labelColor=0d1117" alt="rank 4" />
 <br/>
 <b><a href="https://github.com/HafizMuhammadSobanKhan">@HafizMuhammadSobanKhan</a></b>
 <br/>
@@ -96,23 +113,6 @@ detection, and adversarial machine learning.
 <img src="https://img.shields.io/badge/BEST-1d-30363d?style=flat-square&amp;labelColor=0d1117" alt="longest streak" />
 <br/>
 <sub><code>IDLE</code></sub>
-</td>
-</tr>
-<tr>
-<td align="center" width="33%">
-<a href="https://github.com/tsekoss"><img src="https://github.com/tsekoss.png?size=160" width="88" height="88" alt="tsekoss" /></a>
-<br/>
-<img src="https://img.shields.io/badge/RANK-04-7ee787?style=for-the-badge&amp;labelColor=0d1117" alt="rank 4" />
-<br/>
-<b><a href="https://github.com/tsekoss">@tsekoss</a></b>
-<br/>
-<img src="https://img.shields.io/badge/COMMITS%2FDAY-0.08-7ee787?style=flat-square&amp;labelColor=0d1117" alt="commits per day" />
-<img src="https://img.shields.io/badge/TOTAL-28-7ee787?style=flat-square&amp;labelColor=0d1117" alt="total commits" />
-<br/>
-<img src="https://img.shields.io/badge/STREAK-3d-7ee787?style=flat-square&amp;labelColor=0d1117" alt="current streak" />
-<img src="https://img.shields.io/badge/BEST-3d-7ee787?style=flat-square&amp;labelColor=0d1117" alt="longest streak" />
-<br/>
-<sub><code>ACTIVE</code></sub>
 </td>
 <td align="center" width="33%">
 <a href="https://github.com/drousias"><img src="https://github.com/drousias.png?size=160" width="88" height="88" alt="drousias" /></a>
@@ -182,7 +182,7 @@ Operators with no commits in the window are hidden.</sub>
 <!-- ACTIVITY:START -->
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/CPSsec-UCY/.github/main/profile/assets/combined-activity.svg?v=786cf4ff8a85" width="100%" alt="Combined contribution activity across CPSEC-UCY operators" />
+<img src="https://raw.githubusercontent.com/CPSsec-UCY/.github/main/profile/assets/combined-activity.svg?v=f3288549f908" width="100%" alt="Combined contribution activity across CPSEC-UCY operators" />
 
 <sub>Combined public contribution activity · 7 operators · trailing 365 days</sub>
 </div>
