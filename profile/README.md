@@ -34,7 +34,7 @@ detection, and adversarial machine learning.
 <!-- STATS:START -->
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/CPSsec-UCY/.github/main/profile/assets/stats.svg?v=0ab7bbece318" width="100%" alt="CPSEC-UCY organization statistics" />
+<img src="https://raw.githubusercontent.com/CPSsec-UCY/.github/main/profile/assets/stats.svg?v=dab822b81c2e" width="100%" alt="CPSEC-UCY organization statistics" />
 
 </div>
 <!-- STATS:END -->
@@ -47,7 +47,7 @@ detection, and adversarial machine learning.
 <div align="center">
 
 <img src="https://img.shields.io/badge/TELEMETRY-TRAILING_365_DAYS-7ee787?style=for-the-badge&amp;labelColor=0d1117" alt="telemetry window" />
-<img src="https://img.shields.io/badge/SNAPSHOT-2026--11--26-7ee787?style=for-the-badge&amp;labelColor=0d1117" alt="snapshot date" />
+<img src="https://img.shields.io/badge/SNAPSHOT-2026--11--27-7ee787?style=for-the-badge&amp;labelColor=0d1117" alt="snapshot date" />
 <img src="https://img.shields.io/badge/OPERATORS-7-7ee787?style=for-the-badge&amp;labelColor=0d1117" alt="operator count" />
 
 <table>
@@ -74,11 +74,11 @@ detection, and adversarial machine learning.
 <br/>
 <b><a href="https://github.com/Slayingripper">@Slayingripper</a></b>
 <br/>
-<img src="https://img.shields.io/badge/COMMITS%2FDAY-0.22-7ee787?style=flat-square&amp;labelColor=0d1117" alt="commits per day" />
-<img src="https://img.shields.io/badge/TOTAL-82-7ee787?style=flat-square&amp;labelColor=0d1117" alt="total commits" />
+<img src="https://img.shields.io/badge/COMMITS%2FDAY-0.25-7ee787?style=flat-square&amp;labelColor=0d1117" alt="commits per day" />
+<img src="https://img.shields.io/badge/TOTAL-92-7ee787?style=flat-square&amp;labelColor=0d1117" alt="total commits" />
 <br/>
-<img src="https://img.shields.io/badge/STREAK-6d-7ee787?style=flat-square&amp;labelColor=0d1117" alt="current streak" />
-<img src="https://img.shields.io/badge/BEST-6d-7ee787?style=flat-square&amp;labelColor=0d1117" alt="longest streak" />
+<img src="https://img.shields.io/badge/STREAK-8d-7ee787?style=flat-square&amp;labelColor=0d1117" alt="current streak" />
+<img src="https://img.shields.io/badge/BEST-8d-7ee787?style=flat-square&amp;labelColor=0d1117" alt="longest streak" />
 <br/>
 <sub><code>ACTIVE</code></sub>
 </td>
@@ -124,10 +124,10 @@ detection, and adversarial machine learning.
 <img src="https://img.shields.io/badge/COMMITS%2FDAY-0.03-7ee787?style=flat-square&amp;labelColor=0d1117" alt="commits per day" />
 <img src="https://img.shields.io/badge/TOTAL-11-7ee787?style=flat-square&amp;labelColor=0d1117" alt="total commits" />
 <br/>
-<img src="https://img.shields.io/badge/STREAK-1d-7ee787?style=flat-square&amp;labelColor=0d1117" alt="current streak" />
-<img src="https://img.shields.io/badge/BEST-6d-7ee787?style=flat-square&amp;labelColor=0d1117" alt="longest streak" />
+<img src="https://img.shields.io/badge/STREAK-0d-30363d?style=flat-square&amp;labelColor=0d1117" alt="current streak" />
+<img src="https://img.shields.io/badge/BEST-6d-30363d?style=flat-square&amp;labelColor=0d1117" alt="longest streak" />
 <br/>
-<sub><code>ACTIVE</code></sub>
+<sub><code>IDLE</code></sub>
 </td>
 <td align="center" width="33%">
 <a href="https://github.com/TheocharidesDimitris"><img src="https://github.com/TheocharidesDimitris.png?size=160" width="88" height="88" alt="TheocharidesDimitris" /></a>
@@ -167,7 +167,7 @@ detection, and adversarial machine learning.
 </table>
 
 <p><b>VELOCITY LEADER</b> &rarr; <a href="https://github.com/atsana01">@atsana01</a> · 3.87 commits/day<br/>
-<b>STREAK LEADER</b> &rarr; <a href="https://github.com/Slayingripper">@Slayingripper</a> · 6-day active streak</p>
+<b>STREAK LEADER</b> &rarr; <a href="https://github.com/Slayingripper">@Slayingripper</a> · 8-day active streak</p>
 
 <sub>Metrics are computed from public contribution telemetry over the last 365 days. Private
 contributions may be undercounted. Streaks count consecutive days with at least one commit.
@@ -182,7 +182,7 @@ Operators with no commits in the window are hidden.</sub>
 <!-- ACTIVITY:START -->
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/CPSsec-UCY/.github/main/profile/assets/combined-activity.svg?v=f3288549f908" width="100%" alt="Combined contribution activity across CPSEC-UCY operators" />
+<img src="https://raw.githubusercontent.com/CPSsec-UCY/.github/main/profile/assets/combined-activity.svg?v=736fce50533e" width="100%" alt="Combined contribution activity across CPSEC-UCY operators" />
 
 <sub>Combined public contribution activity · 7 operators · trailing 365 days</sub>
 </div>
