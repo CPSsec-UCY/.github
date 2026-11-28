@@ -34,7 +34,7 @@ detection, and adversarial machine learning.
 <!-- STATS:START -->
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/CPSsec-UCY/.github/main/profile/assets/stats.svg?v=dab822b81c2e" width="100%" alt="CPSEC-UCY organization statistics" />
+<img src="https://raw.githubusercontent.com/CPSsec-UCY/.github/main/profile/assets/stats.svg?v=9296a22cb9fd" width="100%" alt="CPSEC-UCY organization statistics" />
 
 </div>
 <!-- STATS:END -->
@@ -47,7 +47,7 @@ detection, and adversarial machine learning.
 <div align="center">
 
 <img src="https://img.shields.io/badge/TELEMETRY-TRAILING_365_DAYS-7ee787?style=for-the-badge&amp;labelColor=0d1117" alt="telemetry window" />
-<img src="https://img.shields.io/badge/SNAPSHOT-2026--11--27-7ee787?style=for-the-badge&amp;labelColor=0d1117" alt="snapshot date" />
+<img src="https://img.shields.io/badge/SNAPSHOT-2026--11--28-7ee787?style=for-the-badge&amp;labelColor=0d1117" alt="snapshot date" />
 <img src="https://img.shields.io/badge/OPERATORS-7-7ee787?style=for-the-badge&amp;labelColor=0d1117" alt="operator count" />
 
 <table>
@@ -74,8 +74,8 @@ detection, and adversarial machine learning.
 <br/>
 <b><a href="https://github.com/Slayingripper">@Slayingripper</a></b>
 <br/>
-<img src="https://img.shields.io/badge/COMMITS%2FDAY-0.25-7ee787?style=flat-square&amp;labelColor=0d1117" alt="commits per day" />
-<img src="https://img.shields.io/badge/TOTAL-92-7ee787?style=flat-square&amp;labelColor=0d1117" alt="total commits" />
+<img src="https://img.shields.io/badge/COMMITS%2FDAY-0.26-7ee787?style=flat-square&amp;labelColor=0d1117" alt="commits per day" />
+<img src="https://img.shields.io/badge/TOTAL-95-7ee787?style=flat-square&amp;labelColor=0d1117" alt="total commits" />
 <br/>
 <img src="https://img.shields.io/badge/STREAK-8d-7ee787?style=flat-square&amp;labelColor=0d1117" alt="current streak" />
 <img src="https://img.shields.io/badge/BEST-8d-7ee787?style=flat-square&amp;labelColor=0d1117" alt="longest streak" />
@@ -92,10 +92,10 @@ detection, and adversarial machine learning.
 <img src="https://img.shields.io/badge/COMMITS%2FDAY-0.09-7ee787?style=flat-square&amp;labelColor=0d1117" alt="commits per day" />
 <img src="https://img.shields.io/badge/TOTAL-32-7ee787?style=flat-square&amp;labelColor=0d1117" alt="total commits" />
 <br/>
-<img src="https://img.shields.io/badge/STREAK-5d-7ee787?style=flat-square&amp;labelColor=0d1117" alt="current streak" />
-<img src="https://img.shields.io/badge/BEST-5d-7ee787?style=flat-square&amp;labelColor=0d1117" alt="longest streak" />
+<img src="https://img.shields.io/badge/STREAK-0d-30363d?style=flat-square&amp;labelColor=0d1117" alt="current streak" />
+<img src="https://img.shields.io/badge/BEST-5d-30363d?style=flat-square&amp;labelColor=0d1117" alt="longest streak" />
 <br/>
-<sub><code>ACTIVE</code></sub>
+<sub><code>IDLE</code></sub>
 </td>
 </tr>
 <tr>
@@ -182,7 +182,7 @@ Operators with no commits in the window are hidden.</sub>
 <!-- ACTIVITY:START -->
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/CPSsec-UCY/.github/main/profile/assets/combined-activity.svg?v=736fce50533e" width="100%" alt="Combined contribution activity across CPSEC-UCY operators" />
+<img src="https://raw.githubusercontent.com/CPSsec-UCY/.github/main/profile/assets/combined-activity.svg?v=a4b48fa7175f" width="100%" alt="Combined contribution activity across CPSEC-UCY operators" />
 
 <sub>Combined public contribution activity · 7 operators · trailing 365 days</sub>
 </div>

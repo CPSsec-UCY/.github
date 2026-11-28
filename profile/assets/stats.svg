@@ -7,12 +7,12 @@
 <text x="32.0" y="56" fill="#7ee787" font-family="JetBrains Mono, Fira Code, monospace" font-size="22" font-weight="700">7</text>
 <line x1="212.0" y1="16" x2="212.0" y2="62" stroke="#30363d" stroke-width="1"/>
 <text x="236.0" y="28" fill="#8b949e" font-family="JetBrains Mono, Fira Code, monospace" font-size="10" letter-spacing="2">COMMITS / YEAR</text>
-<text x="236.0" y="56" fill="#7ee787" font-family="JetBrains Mono, Fira Code, monospace" font-size="22" font-weight="700">26</text>
+<text x="236.0" y="56" fill="#7ee787" font-family="JetBrains Mono, Fira Code, monospace" font-size="22" font-weight="700">27</text>
 <line x1="416.0" y1="16" x2="416.0" y2="62" stroke="#30363d" stroke-width="1"/>
 <text x="440.0" y="28" fill="#8b949e" font-family="JetBrains Mono, Fira Code, monospace" font-size="10" letter-spacing="2">FOLLOWERS</text>
 <text x="440.0" y="56" fill="#7ee787" font-family="JetBrains Mono, Fira Code, monospace" font-size="22" font-weight="700">2</text>
 <line x1="620.0" y1="16" x2="620.0" y2="62" stroke="#30363d" stroke-width="1"/>
 <text x="644.0" y="28" fill="#8b949e" font-family="JetBrains Mono, Fira Code, monospace" font-size="10" letter-spacing="2">LAST SYNC</text>
-<text x="644.0" y="56" fill="#7ee787" font-family="JetBrains Mono, Fira Code, monospace" font-size="22" font-weight="700">NOV 26</text>
+<text x="644.0" y="56" fill="#7ee787" font-family="JetBrains Mono, Fira Code, monospace" font-size="22" font-weight="700">NOV 27</text>
 <circle cx="856" cy="20" r="3" fill="#7ee787"><animate attributeName="opacity" values="0.25;1;0.25" dur="2.4s" repeatCount="indefinite"/></circle>
 </svg>
